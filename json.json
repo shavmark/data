@@ -9,7 +9,7 @@
 		"reference": [
 			{
 			  "r": "http://www.aparchive.com/metadata/President-George-W-Bush-in-Riga-Latvia-1100-1200/259765d6208845cc9758afb6ab6ba8cf?query=MIDDLE+EAST&current=3&orderBy=Relevance&hits=17&referrer=search&search=%2Fsearch%3Fquery%3DMIDDLE%2520EAST%26allFilters%3DLEBANON%3AKeyword%2CReligion%3ASubject%2CCONSTRUCTION%3AKeyword%2CBusiness%3ASubject%2CGERMANY%3AKeyword&allFilters=LEBANON%3AKeyword%2CReligion%3ASubject%2CCONSTRUCTION%3AKeyword%2CBusiness%3ASubject%2CGERMANY%3AKeyword&productType=IncludedProducts&page=1&b=6ba8cf",
-				  "date": "May 7, 2005", "location": "Riga, Latvia" ,"source": "The Associated Press"
+				  "date": "May 7, 2005", "location": "Riga, Latvia" ,"source": "The Associated Press" 
 			}
 		],
         "audio": [ ],
