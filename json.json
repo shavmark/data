@@ -36,6 +36,7 @@
       [
         {
           "t": "20seconds",
+		  "font": "http://www.fontsquirrel.com/fonts/list/hot", "size": "10", 
           "p": " George Bush: ``The only way we found to rise above the injustices of our history was to reject segregation, to move beyond mere tolerance, and to affirm the brotherhood of everyone in our land.''"
         }
       ]
