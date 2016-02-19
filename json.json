@@ -5,7 +5,7 @@
     "fontsize": "18",
     "paragraphDuration": "20"
   },
-  "todo": { "1":  "http://www.fromsitetostory.org/nhr/21ce0001itascabison/21ce0001itascabison.asp", 8000 years ago},
+  "todo":   "http://www.fromsitetostory.org/nhr/21ce0001itascabison/21ce0001itascabison.asp  8000 years ago",
   "slides": [
     {
       "treaties": [
@@ -277,8 +277,8 @@
       "image": [ ],
       "text": [ 
         {
-          "p": "There could of course be much older history as archaeological sites are rare and seem to be stumpbled on upon randlym by road building for example. Many are burried by farming or otherwise lost to time",
-        },
+          "p": "There could of course be much older history as archaeological sites are rare and seem to be stumpbled on upon randlym by road building for example. Many are burried by farming or otherwise lost to time"
+        }
       ]
     },
     {
@@ -308,7 +308,7 @@
       ],
       "text": [
         {
-          "p": "Archaeologists working at the Bradbury Brook site near Mille Lacs Lake in central Minnesota found more than 125,000 artifacts, including stone tools, dating to 9220 B.P. (Before Present), making it the earliest dated excavated site in Minnesota",
+          "p": "Archaeologists working at the Bradbury Brook site near Mille Lacs Lake in central Minnesota found more than 125 000 artifacts, including stone tools, dating to 9220 B.P. (Before Present), making it the earliest dated excavated site in Minnesota"
         },
         {
           "p": "'From June to September 1990, archaeologists worked at the Bradbury Brook site. The Highway 169 expansion, which would have destroyed the site, was put on hold. Can you see construction trucks and the path for the expanded highway in the background?'"
@@ -342,7 +342,7 @@
       ],
       "text": [
         {
-          "p": "Archaeologists working at the Bradbury Brook site near Mille Lacs Lake in central Minnesota found more than 125,000 artifacts, including stone tools, dating to 9220 B.P. (Before Present), making it the earliest dated excavated site in Minnesota",
+          "p": "Archaeologists working at the Bradbury Brook site near Mille Lacs Lake in central Minnesota found more than 125,000 artifacts, including stone tools, dating to 9220 B.P. (Before Present), making it the earliest dated excavated site in Minnesota"
         },
         {
           "p": "'From June to September 1990, archaeologists worked at the Bradbury Brook site. The Highway 169 expansion, which would have destroyed the site, was put on hold. Can you see construction trucks and the path for the expanded highway in the background?'"
