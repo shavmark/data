@@ -3,23 +3,24 @@
     "font": "raleway/Raleway-Thin.ttf",
     "italics": "raleway/Raleway-Italic.ttf",
     "fontsize": "18",
-    "paragraphDuration": "20"
+    "duration": "20"
   },
   "todo":   "http://www.fromsitetostory.org/nhr/21ce0001itascabison/21ce0001itascabison.asp  8000 years ago",
-  "slides": [
+  "order": [
     {
-      "treaties": [
-        { "s": "W" },
-        { "s": "TheAappology" },
-        { "s": "TheAappology2" },
-        { "s": "TheAappology3" },
-        { "s": "Shorthistory" },
-        { "s": "FirstCopperAge" },
-        { "s": "BradburyBrook" },
-        { "s": "Timeline" },
-        { "s": "Treaty1" },
-        { "s": "Treatyn" }
-      ]
+        "treaties": [
+          { "s": "W" },
+          { "s": "TheAappology" },
+          { "s": "TheAappology2" },
+          { "s": "TheAappology3" },
+          { "s": "Shorthistory" },
+          { "s": "FirstCopperAge" },
+          { "s": "BradburyBrook" },
+          { "s": "Timeline" },
+          { "s": "Treaty1" },
+          { "s": "Treatyn" }
+        ]
+      
     }
   ],
   "treaties": [
