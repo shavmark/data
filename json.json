@@ -5,6 +5,9 @@
     "italicfont": "fonts/Raleway-Italic.ttf",
     "boldfont": "fonts/Raleway-Bold.ttf",
     "fontsize": 18,
+    "foreground": "blue",
+    "x": 0,
+    "y":  50,
     "duration": 1.1
 
   },
@@ -70,7 +73,7 @@
           "x": 1,
           "y": 2,
           "z": 100,
-          "path": "long path",
+          "url": "long path",
           "name": "my name is"
         },
         {
@@ -78,7 +81,7 @@
           "x": 1,
           "y": 2,
           "z": 100,
-          "path": "long path",
+          "url": "long path",
           "name": "my name is",
           "duration" :  10.1,
           "animation": "walking"
@@ -100,28 +103,36 @@
           ]
         }
       ],
-      "image": [
-        {
-          "url": "http://www.nndb.com/people/360/000022294/george-w-bush.jpg",
-          "notes": "maybe ust use links as videos need to be done this way anyhow, then app requires web which is fine",
-          "references": [
-            {
-              "url": "http://www.nndb.com/people/360/000022294/",
-              "date": "find",
-              "location": "find",
-              "source": "NNDB is an intelligence aggregator that tracks the activities of people we have determined to be noteworthy, both living and dead"
-            }]
-        }
+      "graphics": [
+        { "notes": "figure out graphics, like Sunshine etc"}
       ],
-      "notes": [ ],
-      "text": [
-        {
-          "duration": 20.0,
-          "font": "fonts/Raleway-Italic.ttf",
-          "size": 10,
-          "paragraph": " George Bush: ``The only way we found to rise above the injustices of our history was to reject segregation, to move beyond mere tolerance, and to affirm the brotherhood of everyone in our land.''"
-        }
-      ]
+        "images"      :        [
+          {
+            "url": "http://www.nndb.com/people/360/000022294/george-w-bush.jpg",
+            "notes": "maybe ust use links as videos need to be done this way anyhow, then app requires web which is fine",
+            "references": [
+              {
+                "url": "http://www.nndb.com/people/360/000022294/",
+                "date": "find",
+                "location": "find",
+                "source": "NNDB is an intelligence aggregator that tracks the activities of people we have determined to be noteworthy, both living and dead"
+              }
+            ]
+          }
+        ],
+        "text"
+        :
+        [
+          {
+            "foreground": "green",
+            "x": 0,
+            "y":  50,
+            "duration": 20.0,
+            "font": "fonts/Raleway-Italic.ttf",
+            "size": 10,
+            "paragraph": " George Bush: ``The only way we found to rise above the injustices of our history was to reject segregation, to move beyond mere tolerance, and to affirm the brotherhood of everyone in our land.''"
+          }
+        ]
     },
     {
       "name": "TheAappology",
@@ -137,7 +148,7 @@
       ],
       "video": [ ],
       "audio": [ ],
-      "image": [
+      "images": [
         {
           "url": "https://nativevotewa.files.wordpress.com/2009/12/obama-signs-bill1.jpg",
            "references": [
@@ -149,7 +160,6 @@
             }]
         }
       ],
-      "notes": [ { "n": "the Apology was enacted into law as part of the Defense Appropriations Act of 2009" } ],
       "text": [
         { "paragraph": "apology to native peoples of the united states" },
         { "paragraph": " Sec. 8113. (a) Acknowledgment and Apology.--The United States, acting through Congress--" },
@@ -182,7 +192,7 @@
           "duration": 20.0,
           "paragraph": "(7) commends the State governments that have begun reconciliation efforts with recognized Indian tribes located in their boundaries and encourages all State governments similarly to work toward reconciling relationships with Indian tribes within their boundaries."
         },
-        { "paragraph": "    	" }
+        { "paragraph": "The Apology was enacted into law as part of the Defense Appropriations Act of 2009" }
       ]
     },
     {
@@ -200,9 +210,8 @@
       ],
       "audio": [ ],
       "video": [ ],
-      "image": [
+      "images": [
       ],
-      "notes": [ ],
       "text": [
         {
            "duration": 20.0,
@@ -230,7 +239,7 @@
           ],
           "video": [ ],
           "audio": [ ],
-          "image": [
+          "images": [
             {
               "url": "http://i2.wp.com/news.usni.org/wp-content/uploads/2014/12/John-McCain.jpg",
               "references": [
@@ -243,9 +252,7 @@
               ]
             }
           ],
-          "notes": [ ],
-          "text": [
-            { "paragraph": "TO ACKNOWLEDGE A LONG HISTORY OF OFFICIAL DEPREDATIONS AND ILL-CONCEIVED POLICIES BY THE U.S.GOVERNMENT REGARDING INDIAN TRIBES AND OFFER AN APOLOGY TO ALL NATIVE PEOPLES ON BEHALF OF THE UNITED STATES" },
+          "text": [            { "paragraph": "TO ACKNOWLEDGE A LONG HISTORY OF OFFICIAL DEPREDATIONS AND ILL-CONCEIVED POLICIES BY THE U.S.GOVERNMENT REGARDING INDIAN TRIBES AND OFFER AN APOLOGY TO ALL NATIVE PEOPLES ON BEHALF OF THE UNITED STATES" },
             { "paragraph": "    - COMMITTEE ON INDIAN AFFAIRS, JOHN McCAIN, Arizona, Chairman" },
             { "paragraph": "    	" },
             { "paragraph": "STATEMENT OF HON. JOHN McCAIN, U.S. SENATOR FROM ARIZONA, CHAIRMAN, COMMITTEE ON INDIAN AFFAIRS" },
@@ -288,8 +295,7 @@
             }
           ],
       "audio": [ ],
-      "image": [],
-      "notes": [ ],
+      "images": [],
       "text": [
         {
           "paragraph": "Clyde Bellecourt, founder of the American Indian Movement and elder statesman in the Twin Cities civil rights community, was the last audience member to be given the mic to question Bernie Sanders at the Black America Forum in Minneapolis."
@@ -329,7 +335,7 @@
       ],
       "video": [ ],
       "audio": [ ],
-      "image": [
+      "images": [
         {
           "url": "http://copperculture.homestead.com/tp.gif",
           "references": [
@@ -340,7 +346,6 @@
           ]
         }
       ],
-      "notes": [ ],
       "text": [
         {
           "duration": 20.0,
@@ -358,7 +363,7 @@
       "references": [  ],
       "video": [ ],
       "audio": [ ],
-      "image": [ ],
+      "images": [ ],
       "text": [ 
         {
           "paragraph": "There could of course be much older history as archaeological sites are rare and seem to be stumpbled on upon randlym by road building for example. Many are burried by farming or otherwise lost to time"
@@ -373,7 +378,7 @@
       "notes": "Also area (Milacs) where Dakata life started. Site was studied for 3 months then burried under a highway in the background.  BP is before 1950 so add 2000 years ",
       "references": [
         {
-          "url: "http://sites.mnhs.org/library/content/archaeology-collection",
+          "url": "http://sites.mnhs.org/library/content/archaeology-collection",
           "date": "unknwon",
           "location": "Minnesota History Center",
           "source": "Archaeology Collection"
@@ -381,7 +386,7 @@
       ],
       "video": [ ],
       "audio": [ ],
-      "image": [
+      "images": [
         {
           "url": "http://education.mnhs.org/sites/default/files/styles/nl_large_image/public/images/nl/2-21_0.jpg",
           "references": [
@@ -419,7 +424,7 @@
       ],
       "video": [ ],
       "audio": [ ],
-      "image": [
+      "images": [
         {
           "url": "http://education.mnhs.org/sites/default/files/styles/nl_large_image/public/images/nl/2-21_0.jpg",
           "references": [
