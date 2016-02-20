@@ -1,5 +1,6 @@
 {
   "defaults": {
+    "notes":"this will build out as we know more",
     "font": "fonts/Raleway-Thin.ttf",
     "italicfont": "fonts/Raleway-Italic.ttf",
     "boldfont": "fonts/Raleway-Bold.ttf",
@@ -10,19 +11,19 @@
   "todo":   "http://www.fromsitetostory.org/nhr/21ce0001itascabison/21ce0001itascabison.asp  8000 years ago",
   "order": [
     {
-      "names": [  { "n": "treaties" }, { "n": "phaseII" }],
+      "names": [  { "name": "treaties" }, { "name": "phaseII" }],
       "treaties": [
-        { "s": "ClydeBellecourt" },
-        { "s": "W" },
-        { "s": "TheAappology" },
-        { "s": "TheAappology2" },
-        { "s": "TheAappology3" },
-        { "s": "Shorthistory" },
-        { "s": "FirstCopperAge" },
-        { "s": "BradburyBrook" },
-        { "s": "Timeline" },
-        { "s": "Treaty1" },
-        { "s": "Treatyn" }
+        { "name": "ClydeBellecourt" },
+        { "name": "W" },
+        { "name": "TheAappology" },
+        { "name": "TheAappology2" },
+        { "name": "TheAappology3" },
+        { "name": "Shorthistory" },
+        { "name": "FirstCopperAge" },
+        { "name": "BradburyBrook" },
+        { "name": "Timeline" },
+        { "name": "Treaty1" },
+        { "name": "Treatyn" }
       ]
 
     }
@@ -31,48 +32,65 @@
     {
       "name": "W",
       "title": "George W Bush, 2005",
-      "timeline": "2005AD",
+      "timelineDate": "2005AD",
       "lastupdate": "2-17-16",
-      "reference": [
+      "references": [
         {
+          "notes": "video is choppy",
           "url": "http://www.aparchive.com/metadata/President-George-W-Bush-in-Riga-Latvia-1100-1200/259765d6208845cc9758afb6ab6ba8cf?query=MIDDLE+EAST&current=3&orderBy=Relevance&hits=17&referrer=search&search=%2Fsearch%3Fquery%3DMIDDLE%2520EAST%26allFilters%3DLEBANON%3AKeyword%2CReligion%3ASubject%2CCONSTRUCTION%3AKeyword%2CBusiness%3ASubject%2CGERMANY%3AKeyword&allFilters=LEBANON%3AKeyword%2CReligion%3ASubject%2CCONSTRUCTION%3AKeyword%2CBusiness%3ASubject%2CGERMANY%3AKeyword&productType=IncludedProducts&page=1&b=6ba8cf",
           "date": "May 7, 2005",
           "location": "Riga, Latvia",
           "source": "The Associated Press"
+        },
+        {
+          "name": "test"
         }
       ],
       "audio": [
         {
-          "testdata": "",
+          "notes": "test data only",
           "url": "https://www.youtube.com/embed/zOUBMRfiri4",
           "volume": 10,
           "duration": 0.5,
-          "reference": 
+          "date": "May 7, 2005",
+          "references": [
             {
               "url": "http://www.presidency.ucsb.edu/",
               "date": "May 7, 2005",
               "location": "Riga, Latvia",
               "source": "American Presidency Project"
             }
-          
+          ]
         }
       ],
       "character": [
         {
-          "2d": "person1",
-          "animation": "talking"
+          "type": "2d",
+          "animation": "talking",
+          "x": 1,
+          "y": 2,
+          "z": 100,
+          "path": "long path",
+          "name": "my name is"
         },
         {
-          "3d": "person2",
+          "type": "3d",
+          "x": 1,
+          "y": 2,
+          "z": 100,
+          "path": "long path",
+          "name": "my name is",
+          "duration" :  10.1,
           "animation": "walking"
         }
       ],
       "video": [
         {
+          "name": "sample data, not ready data",
           "url": "https://www.youtube.com/embed/zOUBMRfiri4",
           "volume": 10,
           "duration": 0.5,
-          "reference": [
+          "references": [
             {
               "url": "http://www.presidency.ucsb.edu/",
               "date": "May 7, 2005",
@@ -84,32 +102,34 @@
       ],
       "image": [
         {
-          "i": "http://www.nndb.com/people/360/000022294/george-w-bush.jpg",
-          "note": "maybe ust use links as videos need to be done this way anyhow, then app requires web which is fine",
-          "reference": "http://www.nndb.com/people/360/000022294/",
-          "date": "unknown",
-          "location": "unknown",
-          "source": "NNDB is an intelligence aggregator that tracks the activities of people we have determined to be noteworthy, both living and dead"
+          "url": "http://www.nndb.com/people/360/000022294/george-w-bush.jpg",
+          "notes": "maybe ust use links as videos need to be done this way anyhow, then app requires web which is fine",
+          "references": [
+            {
+              "url": "http://www.nndb.com/people/360/000022294/",
+              "date": "find",
+              "location": "find",
+              "source": "NNDB is an intelligence aggregator that tracks the activities of people we have determined to be noteworthy, both living and dead"
+            }]
         }
       ],
       "notes": [ ],
       "text": [
         {
-          "t": "20seconds",
-          "font": "http://www.fontsquirrel.com/fonts/list/hot",
-          "size": "10",
-          "p": " George Bush: ``The only way we found to rise above the injustices of our history was to reject segregation, to move beyond mere tolerance, and to affirm the brotherhood of everyone in our land.''"
+          "duration": 20.0,
+          "font": "fonts/Raleway-Italic.ttf",
+          "size": 10,
+          "paragraph": " George Bush: ``The only way we found to rise above the injustices of our history was to reject segregation, to move beyond mere tolerance, and to affirm the brotherhood of everyone in our land.''"
         }
       ]
     },
     {
       "name": "TheAappology",
       "title": "PUBLIC LAW 111–118, Making appropriations for the Department of Defense for the fiscal year ending September 30, 2010",
-      "timeline": "2009AD",
-      "lastupdate": "2-17-16",
-      "reference": [
+      "timelineDate": "2009AD",
+      "references": [
         {
-          "r": "http://www.copyright.gov/legislation/pl111-118.pdf",
+          "url": "http://www.copyright.gov/legislation/pl111-118.pdf",
           "date": "Dec. 19, 2009",
           "location": "WASHINGTON, DC",
           "source": "U.S. GOVERNMENT PRINTING OFFICE"
@@ -119,57 +139,60 @@
       "audio": [ ],
       "image": [
         {
-          "i": "https://nativevotewa.files.wordpress.com/2009/12/obama-signs-bill1.jpg",
-          "r": "https://nativevotewa.wordpress.com/2009/12/31/president-obama-signs-native-american-apology-resolution/",
-          "date": "December 19, 2009",
-          "location": "Washington, DC",
-          "source": "Native Vote Washington"
+          "url": "https://nativevotewa.files.wordpress.com/2009/12/obama-signs-bill1.jpg",
+           "references": [
+            {
+              "url": "https://nativevotewa.wordpress.com/2009/12/31/president-obama-signs-native-american-apology-resolution/",
+              "date": "December 19, 2009",
+              "location": "Washington, DC",
+              "source": "Native Vote Washington"
+            }]
         }
       ],
       "notes": [ { "n": "the Apology was enacted into law as part of the Defense Appropriations Act of 2009" } ],
       "text": [
-        { "p": "apology to native peoples of the united states" },
-        { "p": " Sec. 8113. (a) Acknowledgment and Apology.--The United States, acting through Congress--" },
-        { "p": "    	" },
+        { "paragraph": "apology to native peoples of the united states" },
+        { "paragraph": " Sec. 8113. (a) Acknowledgment and Apology.--The United States, acting through Congress--" },
+        { "paragraph": "    	" },
         {
-          "t": "20seconds",
-          "p": "(1) recognizes the special legal and political relationship Indian tribes have with the United States and the solemn  covenant with the land we share;"
+          "duration": 20.0,
+          "paragraph": "(1) recognizes the special legal and political relationship Indian tribes have with the United States and the solemn  covenant with the land we share;"
         },
         {
-          "t": "20seconds",
-          "p": "(2) commends and honors Native Peoples for the thousands of years that they have stewarded and protected this land;"
+          "duration": 20.0,
+          "paragraph": "(2) commends and honors Native Peoples for the thousands of years that they have stewarded and protected this land;"
         },
         {
-          "t": "20seconds",
-          "p": "(3) recognizes that there have been years of official depredations, ill-conceived policies, and the breaking of covenants by the Federal Government regarding Indian tribes;"
+          "duration": 20.0,
+          "paragraph": "(3) recognizes that there have been years of official depredations, ill-conceived policies, and the breaking of covenants by the Federal Government regarding Indian tribes;"
         },
         {
-          "t": "20seconds",
-          "p": "(4) apologizes on behalf of the people of the United States to all Native Peoples for the many instances of violence, maltreatment, and neglect inflicted on Native Peoples by citizens of the United States;"
+          "duration": 20.0,
+          "paragraph": "(4) apologizes on behalf of the people of the United States to all Native Peoples for the many instances of violence, maltreatment, and neglect inflicted on Native Peoples by citizens of the United States;"
         },
         {
-          "t": "20seconds",
-          "p": "(5) expresses its regret for the ramifications of former wrongs and its commitment to build on the positive relationships of the past and present to move toward a brighter future where all the people of this land live reconciled as brothers and sisters, and harmoniously steward and protect this land together;"
+          "duration": 20.0,
+          "paragraph": "(5) expresses its regret for the ramifications of former wrongs and its commitment to build on the positive relationships of the past and present to move toward a brighter future where all the people of this land live reconciled as brothers and sisters, and harmoniously steward and protect this land together;"
         },
         {
-          "t": "20seconds",
-          "p": "(6) urges the President to acknowledge the wrongs of the United States against Indian tribes in the history of the United  States in order to bring healing to this land; and"
+          "duration": 20.0,
+          "paragraph": "(6) urges the President to acknowledge the wrongs of the United States against Indian tribes in the history of the United  States in order to bring healing to this land; and"
         },
         {
-          "t": "20seconds",
-          "p": "(7) commends the State governments that have begun reconciliation efforts with recognized Indian tribes located in their boundaries and encourages all State governments similarly to work toward reconciling relationships with Indian tribes within their boundaries."
+          "duration": 20.0,
+          "paragraph": "(7) commends the State governments that have begun reconciliation efforts with recognized Indian tribes located in their boundaries and encourages all State governments similarly to work toward reconciling relationships with Indian tribes within their boundaries."
         },
-        { "p": "    	" }
+        { "paragraph": "    	" }
       ]
     },
     {
       "name": "TheAappology2",
       "title": "Remarks by the President (Barack Obama) at the White House Tribal Nations Conference",
-      "timeline": "2010AD",
+      "timelineDate": "2010AD",
       "lastupdate": "2-17-16",
-      "reference": [
+      "references": [
         {
-          "r": "https://www.whitehouse.gov/the-press-office/2010/12/16/remarks-president-white-house-tribal-nations-conference",
+          "url": "https://www.whitehouse.gov/the-press-office/2010/12/16/remarks-president-white-house-tribal-nations-conference",
           "date": "December 16, 2010",
           "location": "WASHINGTON, DC",
           "source": "The White House"
@@ -182,12 +205,12 @@
       "notes": [ ],
       "text": [
         {
-          "t": "20seconds",
-          "p": "These cases serve as a reminder of the importance of not glossing over the past or ignoring the past, even as we work together to forge a brighter future.  That’s why, last year, I signed a resolution, passed by both parties in Congress, finally recognizing the sad and painful chapters in our shared history -- a history too often marred by broken promises and grave injustices against the First Americans."
+           "duration": 20.0,
+          "paragraph": "These cases serve as a reminder of the importance of not glossing over the past or ignoring the past, even as we work together to forge a brighter future.  That’s why, last year, I signed a resolution, passed by both parties in Congress, finally recognizing the sad and painful chapters in our shared history -- a history too often marred by broken promises and grave injustices against the First Americans."
         },
         {
-          "t": "20seconds",
-          "p": " It’s a resolution I fully supported -- recognizing that no statement can undo the damage that was done; what it can do is help reaffirm the principles that should guide our future.  It’s only by heeding the lessons of our history that we can move forward."
+          "duration": 20.0,
+          "paragraph": " It’s a resolution I fully supported -- recognizing that no statement can undo the damage that was done; what it can do is help reaffirm the principles that should guide our future.  It’s only by heeding the lessons of our history that we can move forward."
         }
       ]
     },
@@ -195,11 +218,11 @@
           "name": "TheAappology3",
           "order": "2",
           "title": "John McCain and other US Senators Apologize",
-          "timeline": "2005AD",
+          "timelineDate": "2005AD",
           "lastupdate": "2-17-16",
-          "reference": [
+          "references": [
             {
-              "r": "https://www.gpo.gov/fdsys/pkg/CHRG-109shrg21531/html/CHRG-109shrg21531.htm",
+              "url": "https://www.gpo.gov/fdsys/pkg/CHRG-109shrg21531/html/CHRG-109shrg21531.htm",
               "date": "MAY 25, 2005",
               "location": "WASHINGTON, DC",
               "source": "U.S. GOVERNMENT PRINTING OFFICE"
@@ -209,45 +232,49 @@
           "audio": [ ],
           "image": [
             {
-              "i": "http://i2.wp.com/news.usni.org/wp-content/uploads/2014/12/John-McCain.jpg",
-              "r": "http://news.usni.org/2014/12/12/opinion-john-mccain-senate-torture-report-revolutionary-war",
-              "date": "unknown",
-              "location": "unknown",
-              "source": "US Navel Institute"
+              "url": "http://i2.wp.com/news.usni.org/wp-content/uploads/2014/12/John-McCain.jpg",
+              "references": [
+                {
+                  "url": "http://news.usni.org/2014/12/12/opinion-john-mccain-senate-torture-report-revolutionary-war",
+                  "date": "unknown",
+                  "location": "unknown",
+                  "source": "US Navel Institute"
+                }
+              ]
             }
           ],
           "notes": [ ],
           "text": [
-            { "p": "TO ACKNOWLEDGE A LONG HISTORY OF OFFICIAL DEPREDATIONS AND ILL-CONCEIVED POLICIES BY THE U.S.GOVERNMENT REGARDING INDIAN TRIBES AND OFFER AN APOLOGY TO ALL NATIVE PEOPLES ON BEHALF OF THE UNITED STATES" },
-            { "p": "    - COMMITTEE ON INDIAN AFFAIRS, JOHN McCAIN, Arizona, Chairman" },
-            { "p": "    	" },
-            { "p": "STATEMENT OF HON. JOHN McCAIN, U.S. SENATOR FROM ARIZONA, CHAIRMAN, COMMITTEE ON INDIAN AFFAIRS" },
+            { "paragraph": "TO ACKNOWLEDGE A LONG HISTORY OF OFFICIAL DEPREDATIONS AND ILL-CONCEIVED POLICIES BY THE U.S.GOVERNMENT REGARDING INDIAN TRIBES AND OFFER AN APOLOGY TO ALL NATIVE PEOPLES ON BEHALF OF THE UNITED STATES" },
+            { "paragraph": "    - COMMITTEE ON INDIAN AFFAIRS, JOHN McCAIN, Arizona, Chairman" },
+            { "paragraph": "    	" },
+            { "paragraph": "STATEMENT OF HON. JOHN McCAIN, U.S. SENATOR FROM ARIZONA, CHAIRMAN, COMMITTEE ON INDIAN AFFAIRS" },
             {
-              "t": "20seconds",
-              "p": "The Chairman. Today's hearing addresses S.J. Res. 15, a joint resolution to acknowledge the contributions of Native Americans to this country but also the long history of official depredations and ill-conceived policies by the U.S. Government regarding Indians."
+              "duration": 20.0,
+              "paragraph": "The Chairman. Today's hearing addresses S.J. Res. 15, a joint resolution to acknowledge the contributions of Native Americans to this country but also the long history of official depredations and ill-conceived policies by the U.S. Government regarding Indians."
             },
             {
-              "t": "20seconds",
-              "p": "The resolution apologizes to Native Peoples on behalf of the United States. I commend Senator Brownback for introducing the measure and I look forward to his testimony. I note that he introduced an apology resolution in the last Congress. That resolution, passed by unanimous consent of this committee with an amendment in the nature of a substitute, was never acted on by the full Senate."
+               "duration": 20.0,
+              "paragraph": "The resolution apologizes to Native Peoples on behalf of the United States. I commend Senator Brownback for introducing the measure and I look forward to his testimony. I note that he introduced an apology resolution in the last Congress. That resolution, passed by unanimous consent of this committee with an amendment in the nature of a substitute, was never acted on by the full Senate."
             },
             {
-              "t": "20seconds",
-              "p": "S.J. Res. 15 apologizes for the several hundred years of wrongs the Federal Government has perpetrated against Native Americans. Reviewing the history of this Government's treatment of Native peoples makes painfully obvious that the Government has repeatedly broken its promises and caused great harm to the Nation's original inhabitants."
+               "duration": 20.0,
+              "paragraph": "S.J. Res. 15 apologizes for the several hundred years of wrongs the Federal Government has perpetrated against Native Americans. Reviewing the history of this Government's treatment of Native peoples makes painfully obvious that the Government has repeatedly broken its promises and caused great harm to the Nation's original inhabitants."
             },
             {
-              "t": "20seconds",
-              "p": " While remembering our past wrongs is important, it is also important that we answer those wrongs with vigorous actions and policies that actively promote the well-being of Native Americans today."
+               "duration": 20.0,
+              "paragraph": " While remembering our past wrongs is important, it is also important that we answer those wrongs with vigorous actions and policies that actively promote the well-being of Native Americans today."
             }
           ]
         },
          {
       "name": "ClydeBellecourt",
        "title": "Are You Going to Honor the Treaties? Clyde Bellecourt Asks Bernie Sanders",
-      "timeline": "TODAY",
+      "timelineDate": "TODAY",
       "lastupdate": "2-19-16",
-      "reference": [
+      "references": [
         {
-          "r": "http://indiancountrytodaymedianetwork.com/2016/02/15/are-you-going-honor-treaties-clyde-bellecourt-asks-bernie-sanders-163429",
+          "url": "http://indiancountrytodaymedianetwork.com/2016/02/15/are-you-going-honor-treaties-clyde-bellecourt-asks-bernie-sanders-163429",
           "date": "Feburary 2016",
           "location": "Black America Forum in Minneapolis",
           "source": "Indian Country TodayMEDIA NETWORK"
@@ -265,36 +292,36 @@
       "notes": [ ],
       "text": [
         {
-          "p": "Clyde Bellecourt, founder of the American Indian Movement and elder statesman in the Twin Cities civil rights community, was the last audience member to be given the mic to question Bernie Sanders at the Black America Forum in Minneapolis."
+          "paragraph": "Clyde Bellecourt, founder of the American Indian Movement and elder statesman in the Twin Cities civil rights community, was the last audience member to be given the mic to question Bernie Sanders at the Black America Forum in Minneapolis."
         }
       ]
     },
     {
       "name": "FirstCopperAge",
       "title": "",
-      "timeline": "5500BC",
+      "timelineDate": "5500BC",
       "lastupdate": "2-17-16",
-      "reference": [
+      "references": [
         {
-          "r": "http://www.jstor.org/stable/25669519",
+          "url": "http://www.jstor.org/stable/25669519",
           "date": "February 1998",
           "location": "University of Minnesota, Dept. of Anthropology",
           "source": "OLD COPPER IN MINNESOTA: A REVIEW"
         },
         {
-          "r": "http://copperculture.homestead.com/",
+          "url": "http://copperculture.homestead.com/",
           "date": "June 20, 2015",
           "location": "private person, but references and pics are great",
           "source": "THE OLD COPPER COMPLEX web site"
         },
         {
-          "r": "http://www.iceman.it/en/copperage",
+          "url": "http://www.iceman.it/en/copperage",
           "date": "2013",
           "location": "South Tyrol Museum of Archaeology",
           "source": "The Copper Age (3500 – 2300 BC)"
         },
         {
-          "r": "http://sites.mnhs.org/library/content/archaeology-collection",
+          "url": "http://sites.mnhs.org/library/content/archaeology-collection",
           "date": "unknown",
           "location": "Minnesota History Center",
           "source": "Archaeology Collection"
@@ -304,47 +331,49 @@
       "audio": [ ],
       "image": [
         {
-          "i": "http://copperculture.homestead.com/tp.gif",
-          "r": "http://copperculture.homestead.com/",
-          "date": "unknown",
-          "location": "unknown",
-          "source": "from the collection of David and Dr. E.W. Johnson"
+          "url": "http://copperculture.homestead.com/tp.gif",
+          "references": [
+            {
+              "url": "http://copperculture.homestead.com/",
+              "source": "from the collection of David and Dr. E.W. Johnson"
+            }
+          ]
         }
       ],
       "notes": [ ],
       "text": [
         {
-          "t": "20seconds",
-          "p": "People used copper as early as 7000 BC in North America, possibly 4000 BC, and 5500 BC in Minnesota. The Copper Age was 3500 – 2300 BC in Europe"
+          "duration": 20.0,
+          "paragraph": "People used copper as early as 7000 BC in North America, possibly 4000 BC, and 5500 BC in Minnesota. The Copper Age was 3500 – 2300 BC in Europe"
         }
       ]
     },
     {
       "name": "Shorthistory",
       "title": "Known Timeline",
-      "timeline": "11500BP",
+      "timelineDate": "11500BP",
       "lastupdate": "2-18-16",
       "call": "TimeRatio",
       "notes": "make a time line, to scale, of 11500 to first treaty to today in a graphic",
-      "reference": [  ],
+      "references": [  ],
       "video": [ ],
       "audio": [ ],
       "image": [ ],
       "text": [ 
         {
-          "p": "There could of course be much older history as archaeological sites are rare and seem to be stumpbled on upon randlym by road building for example. Many are burried by farming or otherwise lost to time"
+          "paragraph": "There could of course be much older history as archaeological sites are rare and seem to be stumpbled on upon randlym by road building for example. Many are burried by farming or otherwise lost to time"
         }
       ]
     },
     {
       "name": "BradburyBrook",
       "title": "",
-      "timeline": "11500BP",
+      "timelineDate": "11500BP",
       "lastupdate": "2-18-16",
       "notes": "Also area (Milacs) where Dakata life started. Site was studied for 3 months then burried under a highway in the background.  BP is before 1950 so add 2000 years ",
-      "reference": [
+      "references": [
         {
-          "r": "http://sites.mnhs.org/library/content/archaeology-collection",
+          "url: "http://sites.mnhs.org/library/content/archaeology-collection",
           "date": "unknwon",
           "location": "Minnesota History Center",
           "source": "Archaeology Collection"
@@ -354,31 +383,35 @@
       "audio": [ ],
       "image": [
         {
-          "i": "http://education.mnhs.org/sites/default/files/styles/nl_large_image/public/images/nl/2-21_0.jpg",
-          "r": "http://education.mnhs.org/northern-lights/learning-resources/chapter-2-evidence-past/archaeologist-taking-notes-bradbury-brook",
-          "date": "September 1990",
-          "location": "Bradbury Brook site",
-          "source": "Archaeologist taking notes at Bradbury Brook site (with highway coming)"
+          "url": "http://education.mnhs.org/sites/default/files/styles/nl_large_image/public/images/nl/2-21_0.jpg",
+          "references": [
+            {
+              "url": "http://education.mnhs.org/northern-lights/learning-resources/chapter-2-evidence-past/archaeologist-taking-notes-bradbury-brook",
+              "date": "September 1990",
+              "location": "Bradbury Brook site",
+              "source": "Archaeologist taking notes at Bradbury Brook site (with highway coming)"
+            }
+          ]
         }
       ],
       "text": [
         {
-          "p": "Archaeologists working at the Bradbury Brook site near Mille Lacs Lake in central Minnesota found more than 125 000 artifacts, including stone tools, dating to 9220 B.P. (Before Present), making it the earliest dated excavated site in Minnesota"
+          "paragraph": "Archaeologists working at the Bradbury Brook site near Mille Lacs Lake in central Minnesota found more than 125 000 artifacts, including stone tools, dating to 9220 B.P. (Before Present), making it the earliest dated excavated site in Minnesota"
         },
         {
-          "p": "'From June to September 1990, archaeologists worked at the Bradbury Brook site. The Highway 169 expansion, which would have destroyed the site, was put on hold. Can you see construction trucks and the path for the expanded highway in the background?'"
+          "paragraph": "'From June to September 1990, archaeologists worked at the Bradbury Brook site. The Highway 169 expansion, which would have destroyed the site, was put on hold. Can you see construction trucks and the path for the expanded highway in the background?'"
         }
       ]
     },
     {
       "name": "Timeline",
       "title": "",
-      "timeline": "11500BP",
+      "timelineDate": "11500BP",
       "lastupdate": "2-18-16",
       "notes": "make a time line, to scale, of 11500 to first treaty to today, show a filling bucket of 12,000 years, then show 200 items",
-      "reference": [
+      "references": [
         {
-          "r": "http://sites.mnhs.org/library/content/archaeology-collection",
+          "url": "http://sites.mnhs.org/library/content/archaeology-collection",
           "date": "unknown",
           "location": "Minnesota History Center",
           "source": "Archaeology Collection"
@@ -388,19 +421,23 @@
       "audio": [ ],
       "image": [
         {
-          "i": "http://education.mnhs.org/sites/default/files/styles/nl_large_image/public/images/nl/2-21_0.jpg",
-          "r": "http://education.mnhs.org/northern-lights/learning-resources/chapter-2-evidence-past/archaeologist-taking-notes-bradbury-brook",
-          "date": "September 1990",
-          "location": "Bradbury Brook site",
-          "source": "Archaeologist taking notes at Bradbury Brook site (with highway coming)"
+          "url": "http://education.mnhs.org/sites/default/files/styles/nl_large_image/public/images/nl/2-21_0.jpg",
+          "references": [
+            {
+              "url": "http://education.mnhs.org/northern-lights/learning-resources/chapter-2-evidence-past/archaeologist-taking-notes-bradbury-brook",
+            "date": "September 1990",
+            "location": "Bradbury Brook site",
+            "source": "Archaeologist taking notes at Bradbury Brook site (with highway coming)"
+            }
+          ]
         }
       ],
       "text": [
         {
-          "p": "Archaeologists working at the Bradbury Brook site near Mille Lacs Lake in central Minnesota found more than 125,000 artifacts, including stone tools, dating to 9220 B.P. (Before Present), making it the earliest dated excavated site in Minnesota"
+          "paragraph": "Archaeologists working at the Bradbury Brook site near Mille Lacs Lake in central Minnesota found more than 125,000 artifacts, including stone tools, dating to 9220 B.P. (Before Present), making it the earliest dated excavated site in Minnesota"
         },
         {
-          "p": "'From June to September 1990, archaeologists worked at the Bradbury Brook site. The Highway 169 expansion, which would have destroyed the site, was put on hold. Can you see construction trucks and the path for the expanded highway in the background?'"
+          "paragraph": "'From June to September 1990, archaeologists worked at the Bradbury Brook site. The Highway 169 expansion, which would have destroyed the site, was put on hold. Can you see construction trucks and the path for the expanded highway in the background?'"
         }
       ]
     }
