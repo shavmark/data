@@ -3,7 +3,7 @@
     "font": "fonts/Raleway-Thin.ttf",
     "italicfont": "fonts/Raleway-Italic.ttf",
     "boldfont": "fonts/Raleway-Bold.ttf",
-    "fontsize": "18",
+    "fontsize": 18,
     "duration": 1.1
 
   },
@@ -12,6 +12,7 @@
     {
       "names": [  { "n": "treaties" }, { "n": "phaseII" }],
       "treaties": [
+        { "s": "ClydeBellecourt" },
         { "s": "W" },
         { "s": "TheAappology" },
         { "s": "TheAappology2" },
@@ -34,13 +35,28 @@
       "lastupdate": "2-17-16",
       "reference": [
         {
-          "link": "http://www.aparchive.com/metadata/President-George-W-Bush-in-Riga-Latvia-1100-1200/259765d6208845cc9758afb6ab6ba8cf?query=MIDDLE+EAST&current=3&orderBy=Relevance&hits=17&referrer=search&search=%2Fsearch%3Fquery%3DMIDDLE%2520EAST%26allFilters%3DLEBANON%3AKeyword%2CReligion%3ASubject%2CCONSTRUCTION%3AKeyword%2CBusiness%3ASubject%2CGERMANY%3AKeyword&allFilters=LEBANON%3AKeyword%2CReligion%3ASubject%2CCONSTRUCTION%3AKeyword%2CBusiness%3ASubject%2CGERMANY%3AKeyword&productType=IncludedProducts&page=1&b=6ba8cf",
+          "url": "http://www.aparchive.com/metadata/President-George-W-Bush-in-Riga-Latvia-1100-1200/259765d6208845cc9758afb6ab6ba8cf?query=MIDDLE+EAST&current=3&orderBy=Relevance&hits=17&referrer=search&search=%2Fsearch%3Fquery%3DMIDDLE%2520EAST%26allFilters%3DLEBANON%3AKeyword%2CReligion%3ASubject%2CCONSTRUCTION%3AKeyword%2CBusiness%3ASubject%2CGERMANY%3AKeyword&allFilters=LEBANON%3AKeyword%2CReligion%3ASubject%2CCONSTRUCTION%3AKeyword%2CBusiness%3ASubject%2CGERMANY%3AKeyword&productType=IncludedProducts&page=1&b=6ba8cf",
           "date": "May 7, 2005",
           "location": "Riga, Latvia",
           "source": "The Associated Press"
         }
       ],
-      "audio": [ ],
+      "audio": [
+        {
+          "testdata": "",
+          "url": "https://www.youtube.com/embed/zOUBMRfiri4",
+          "volume": 10,
+          "duration": 0.5,
+          "reference": 
+            {
+              "url": "http://www.presidency.ucsb.edu/",
+              "date": "May 7, 2005",
+              "location": "Riga, Latvia",
+              "source": "American Presidency Project"
+            }
+          
+        }
+      ],
       "character": [
         {
           "2d": "person1",
@@ -53,13 +69,17 @@
       ],
       "video": [
         {
-          "v": "https://www.youtube.com/embed/zOUBMRfiri4",
+          "url": "https://www.youtube.com/embed/zOUBMRfiri4",
+          "volume": 10,
+          "duration": 0.5,
           "reference": [
-        {
-          "link": "http://www.presidency.ucsb.edu/",
-          "date": "May 7, 2005",
-          "location": "Riga, Latvia",
-          "source": "American Presidency Project"
+            {
+              "url": "http://www.presidency.ucsb.edu/",
+              "date": "May 7, 2005",
+              "location": "Riga, Latvia",
+              "source": "American Presidency Project"
+            }
+          ]
         }
       ],
       "image": [
@@ -171,52 +191,81 @@
         }
       ]
     },
-    {
-      "name": "TheAappology3",
-      "order": "2",
-      "title": "John McCain and other US Senators Apologize",
-      "timeline": "2005AD",
-      "lastupdate": "2-17-16",
+        {
+          "name": "TheAappology3",
+          "order": "2",
+          "title": "John McCain and other US Senators Apologize",
+          "timeline": "2005AD",
+          "lastupdate": "2-17-16",
+          "reference": [
+            {
+              "r": "https://www.gpo.gov/fdsys/pkg/CHRG-109shrg21531/html/CHRG-109shrg21531.htm",
+              "date": "MAY 25, 2005",
+              "location": "WASHINGTON, DC",
+              "source": "U.S. GOVERNMENT PRINTING OFFICE"
+            }
+          ],
+          "video": [ ],
+          "audio": [ ],
+          "image": [
+            {
+              "i": "http://i2.wp.com/news.usni.org/wp-content/uploads/2014/12/John-McCain.jpg",
+              "r": "http://news.usni.org/2014/12/12/opinion-john-mccain-senate-torture-report-revolutionary-war",
+              "date": "unknown",
+              "location": "unknown",
+              "source": "US Navel Institute"
+            }
+          ],
+          "notes": [ ],
+          "text": [
+            { "p": "TO ACKNOWLEDGE A LONG HISTORY OF OFFICIAL DEPREDATIONS AND ILL-CONCEIVED POLICIES BY THE U.S.GOVERNMENT REGARDING INDIAN TRIBES AND OFFER AN APOLOGY TO ALL NATIVE PEOPLES ON BEHALF OF THE UNITED STATES" },
+            { "p": "    - COMMITTEE ON INDIAN AFFAIRS, JOHN McCAIN, Arizona, Chairman" },
+            { "p": "    	" },
+            { "p": "STATEMENT OF HON. JOHN McCAIN, U.S. SENATOR FROM ARIZONA, CHAIRMAN, COMMITTEE ON INDIAN AFFAIRS" },
+            {
+              "t": "20seconds",
+              "p": "The Chairman. Today's hearing addresses S.J. Res. 15, a joint resolution to acknowledge the contributions of Native Americans to this country but also the long history of official depredations and ill-conceived policies by the U.S. Government regarding Indians."
+            },
+            {
+              "t": "20seconds",
+              "p": "The resolution apologizes to Native Peoples on behalf of the United States. I commend Senator Brownback for introducing the measure and I look forward to his testimony. I note that he introduced an apology resolution in the last Congress. That resolution, passed by unanimous consent of this committee with an amendment in the nature of a substitute, was never acted on by the full Senate."
+            },
+            {
+              "t": "20seconds",
+              "p": "S.J. Res. 15 apologizes for the several hundred years of wrongs the Federal Government has perpetrated against Native Americans. Reviewing the history of this Government's treatment of Native peoples makes painfully obvious that the Government has repeatedly broken its promises and caused great harm to the Nation's original inhabitants."
+            },
+            {
+              "t": "20seconds",
+              "p": " While remembering our past wrongs is important, it is also important that we answer those wrongs with vigorous actions and policies that actively promote the well-being of Native Americans today."
+            }
+          ]
+        },
+         {
+      "name": "ClydeBellecourt",
+       "title": "Are You Going to Honor the Treaties? Clyde Bellecourt Asks Bernie Sanders",
+      "timeline": "TODAY",
+      "lastupdate": "2-19-16",
       "reference": [
         {
-          "r": "https://www.gpo.gov/fdsys/pkg/CHRG-109shrg21531/html/CHRG-109shrg21531.htm",
-          "date": "MAY 25, 2005",
-          "location": "WASHINGTON, DC",
-          "source": "U.S. GOVERNMENT PRINTING OFFICE"
+          "r": "http://indiancountrytodaymedianetwork.com/2016/02/15/are-you-going-honor-treaties-clyde-bellecourt-asks-bernie-sanders-163429",
+          "date": "Feburary 2016",
+          "location": "Black America Forum in Minneapolis",
+          "source": "Indian Country TodayMEDIA NETWORK"
         }
       ],
-      "video": [ ],
+          "video": [
+            {
+              "url": "https://youtu.be/bCYiN0N9dqs",
+              "volume": 10,
+              "duration": 0.5
+            }
+          ],
       "audio": [ ],
-      "image": [
-        {
-          "i": "http://i2.wp.com/news.usni.org/wp-content/uploads/2014/12/John-McCain.jpg",
-          "r": "http://news.usni.org/2014/12/12/opinion-john-mccain-senate-torture-report-revolutionary-war",
-          "date": "unknown",
-          "location": "unknown",
-          "source": "US Navel Institute"
-        }
-      ],
+      "image": [],
       "notes": [ ],
       "text": [
-        { "p": "TO ACKNOWLEDGE A LONG HISTORY OF OFFICIAL DEPREDATIONS AND ILL-CONCEIVED POLICIES BY THE U.S.GOVERNMENT REGARDING INDIAN TRIBES AND OFFER AN APOLOGY TO ALL NATIVE PEOPLES ON BEHALF OF THE UNITED STATES" },
-        { "p": "    - COMMITTEE ON INDIAN AFFAIRS, JOHN McCAIN, Arizona, Chairman" },
-        { "p": "    	" },
-        { "p": "STATEMENT OF HON. JOHN McCAIN, U.S. SENATOR FROM ARIZONA, CHAIRMAN, COMMITTEE ON INDIAN AFFAIRS" },
         {
-          "t": "20seconds",
-          "p": "The Chairman. Today's hearing addresses S.J. Res. 15, a joint resolution to acknowledge the contributions of Native Americans to this country but also the long history of official depredations and ill-conceived policies by the U.S. Government regarding Indians."
-        },
-        {
-          "t": "20seconds",
-          "p": "The resolution apologizes to Native Peoples on behalf of the United States. I commend Senator Brownback for introducing the measure and I look forward to his testimony. I note that he introduced an apology resolution in the last Congress. That resolution, passed by unanimous consent of this committee with an amendment in the nature of a substitute, was never acted on by the full Senate."
-        },
-        {
-          "t": "20seconds",
-          "p": "S.J. Res. 15 apologizes for the several hundred years of wrongs the Federal Government has perpetrated against Native Americans. Reviewing the history of this Government's treatment of Native peoples makes painfully obvious that the Government has repeatedly broken its promises and caused great harm to the Nation's original inhabitants."
-        },
-        {
-          "t": "20seconds",
-          "p": " While remembering our past wrongs is important, it is also important that we answer those wrongs with vigorous actions and policies that actively promote the well-being of Native Americans today."
+          "p": "Clyde Bellecourt, founder of the American Indian Movement and elder statesman in the Twin Cities civil rights community, was the last audience member to be given the mic to question Bernie Sanders at the Black America Forum in Minneapolis."
         }
       ]
     },
