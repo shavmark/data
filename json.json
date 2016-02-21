@@ -1,21 +1,18 @@
 {
+  "title": "History and Future of USA within USA Treaties",
   "defaults": {
-    "notes":"this will build out as we know more",
+    "notes": "this will build out as we know more",
     "font": "fonts/Raleway-Thin.ttf",
     "italicfont": "fonts/Raleway-Italic.ttf",
     "boldfont": "fonts/Raleway-Bold.ttf",
     "fontsize": 18,
     "foreground": "blue",
     "x": 0,
-    "y":  50,
+    "y": 50,
     "duration": 1.1
-
   },
-  "todo":   "http://www.fromsitetostory.org/nhr/21ce0001itascabison/21ce0001itascabison.asp  8000 years ago",
+  "todo": "http://www.fromsitetostory.org/nhr/21ce0001itascabison/21ce0001itascabison.asp  8000 years ago",
   "order": [
-    {
-      "names": [  { "name": "treaties" }, { "name": "phaseII" }],
-      "treaties": [
         { "name": "ClydeBellecourt" },
         { "name": "W" },
         { "name": "TheAappology" },
@@ -27,14 +24,15 @@
         { "name": "Timeline" },
         { "name": "Treaty1" },
         { "name": "Treatyn" }
-      ]
-
-    }
   ],
-  "treaties": [
+  "scenes": [
     {
       "name": "W",
       "title": "George W Bush, 2005",
+      "defaults": {
+          "notes": "slide1 default",
+          "font": "fonts/Raleway-Thin.ttf",
+      },
       "timelineDate": "2005AD",
       "lastupdate": "2-17-16",
       "references": [
@@ -83,7 +81,7 @@
           "z": 100,
           "url": "long path",
           "name": "my name is",
-          "duration" :  10.1,
+          "duration": 10.1,
           "animation": "walking"
         }
       ],
@@ -104,35 +102,33 @@
         }
       ],
       "graphics": [
-        { "notes": "figure out graphics, like Sunshine etc"}
+        { "notes": "figure out graphics, like Sunshine etc" }
       ],
-        "images"      :        [
-          {
-            "url": "http://www.nndb.com/people/360/000022294/george-w-bush.jpg",
-            "notes": "maybe ust use links as videos need to be done this way anyhow, then app requires web which is fine",
-            "references": [
-              {
-                "url": "http://www.nndb.com/people/360/000022294/",
-                "date": "find",
-                "location": "find",
-                "source": "NNDB is an intelligence aggregator that tracks the activities of people we have determined to be noteworthy, both living and dead"
-              }
-            ]
-          }
-        ],
-        "text"
-        :
-        [
-          {
-            "foreground": "green",
-            "x": 0,
-            "y":  50,
-            "duration": 20.0,
-            "font": "fonts/Raleway-Italic.ttf",
-            "size": 10,
-            "paragraph": " George Bush: ``The only way we found to rise above the injustices of our history was to reject segregation, to move beyond mere tolerance, and to affirm the brotherhood of everyone in our land.''"
-          }
-        ]
+      "images": [
+        {
+          "url": "http://www.nndb.com/people/360/000022294/george-w-bush.jpg",
+          "notes": "maybe ust use links as videos need to be done this way anyhow, then app requires web which is fine",
+          "references": [
+            {
+              "url": "http://www.nndb.com/people/360/000022294/",
+              "date": "find",
+              "location": "find",
+              "source": "NNDB is an intelligence aggregator that tracks the activities of people we have determined to be noteworthy, both living and dead"
+            }
+          ]
+        }
+      ],
+      "text": [
+        {
+          "foreground": "green",
+          "x": 0,
+          "y": 50,
+          "duration": 20.0,
+          "font": "fonts/Raleway-Italic.ttf",
+          "size": 10,
+          "paragraph": " George Bush: ``The only way we found to rise above the injustices of our history was to reject segregation, to move beyond mere tolerance, and to affirm the brotherhood of everyone in our land.''"
+        }
+      ]
     },
     {
       "name": "TheAappology",
@@ -151,13 +147,14 @@
       "images": [
         {
           "url": "https://nativevotewa.files.wordpress.com/2009/12/obama-signs-bill1.jpg",
-           "references": [
+          "references": [
             {
               "url": "https://nativevotewa.wordpress.com/2009/12/31/president-obama-signs-native-american-apology-resolution/",
               "date": "December 19, 2009",
               "location": "Washington, DC",
               "source": "Native Vote Washington"
-            }]
+            }
+          ]
         }
       ],
       "text": [
@@ -214,7 +211,7 @@
       ],
       "text": [
         {
-           "duration": 20.0,
+          "duration": 20.0,
           "paragraph": "These cases serve as a reminder of the importance of not glossing over the past or ignoring the past, even as we work together to forge a brighter future.  That’s why, last year, I signed a resolution, passed by both parties in Congress, finally recognizing the sad and painful chapters in our shared history -- a history too often marred by broken promises and grave injustices against the First Americans."
         },
         {
@@ -223,64 +220,65 @@
         }
       ]
     },
+    {
+      "name": "TheAappology3",
+      "order": "2",
+      "title": "John McCain and other US Senators Apologize",
+      "timelineDate": "2005AD",
+      "lastupdate": "2-17-16",
+      "references": [
         {
-          "name": "TheAappology3",
-          "order": "2",
-          "title": "John McCain and other US Senators Apologize",
-          "timelineDate": "2005AD",
-          "lastupdate": "2-17-16",
+          "url": "https://www.gpo.gov/fdsys/pkg/CHRG-109shrg21531/html/CHRG-109shrg21531.htm",
+          "date": "MAY 25, 2005",
+          "location": "WASHINGTON, DC",
+          "source": "U.S. GOVERNMENT PRINTING OFFICE"
+        }
+      ],
+      "video": [ ],
+      "audio": [ ],
+      "images": [
+        {
+          "url": "http://i2.wp.com/news.usni.org/wp-content/uploads/2014/12/John-McCain.jpg",
           "references": [
             {
-              "url": "https://www.gpo.gov/fdsys/pkg/CHRG-109shrg21531/html/CHRG-109shrg21531.htm",
-              "date": "MAY 25, 2005",
-              "location": "WASHINGTON, DC",
-              "source": "U.S. GOVERNMENT PRINTING OFFICE"
-            }
-          ],
-          "video": [ ],
-          "audio": [ ],
-          "images": [
-            {
-              "url": "http://i2.wp.com/news.usni.org/wp-content/uploads/2014/12/John-McCain.jpg",
-              "references": [
-                {
-                  "url": "http://news.usni.org/2014/12/12/opinion-john-mccain-senate-torture-report-revolutionary-war",
-                  "date": "unknown",
-                  "location": "unknown",
-                  "source": "US Navel Institute"
-                }
-              ]
-            }
-          ],
-          "text": [            { "paragraph": "TO ACKNOWLEDGE A LONG HISTORY OF OFFICIAL DEPREDATIONS AND ILL-CONCEIVED POLICIES BY THE U.S.GOVERNMENT REGARDING INDIAN TRIBES AND OFFER AN APOLOGY TO ALL NATIVE PEOPLES ON BEHALF OF THE UNITED STATES" },
-            { "paragraph": "    - COMMITTEE ON INDIAN AFFAIRS, JOHN McCAIN, Arizona, Chairman" },
-            { "paragraph": "    	" },
-            { "paragraph": "STATEMENT OF HON. JOHN McCAIN, U.S. SENATOR FROM ARIZONA, CHAIRMAN, COMMITTEE ON INDIAN AFFAIRS" },
-            {
-              "duration": 20.0,
-              "paragraph": "The Chairman. Today's hearing addresses S.J. Res. 15, a joint resolution to acknowledge the contributions of Native Americans to this country but also the long history of official depredations and ill-conceived policies by the U.S. Government regarding Indians."
-            },
-            {
-               "duration": 20.0,
-              "paragraph": "The resolution apologizes to Native Peoples on behalf of the United States. I commend Senator Brownback for introducing the measure and I look forward to his testimony. I note that he introduced an apology resolution in the last Congress. That resolution, passed by unanimous consent of this committee with an amendment in the nature of a substitute, was never acted on by the full Senate."
-            },
-            {
-               "duration": 20.0,
-              "paragraph": "S.J. Res. 15 apologizes for the several hundred years of wrongs the Federal Government has perpetrated against Native Americans. Reviewing the history of this Government's treatment of Native peoples makes painfully obvious that the Government has repeatedly broken its promises and caused great harm to the Nation's original inhabitants."
-            },
-            {
-               "duration": 20.0,
-              "paragraph": " While remembering our past wrongs is important, it is also important that we answer those wrongs with vigorous actions and policies that actively promote the well-being of Native Americans today."
+              "url": "http://news.usni.org/2014/12/12/opinion-john-mccain-senate-torture-report-revolutionary-war",
+              "date": "unknown",
+              "location": "unknown",
+              "source": "US Navel Institute"
             }
           ]
+        }
+      ],
+      "text": [
+        { "paragraph": "TO ACKNOWLEDGE A LONG HISTORY OF OFFICIAL DEPREDATIONS AND ILL-CONCEIVED POLICIES BY THE U.S.GOVERNMENT REGARDING INDIAN TRIBES AND OFFER AN APOLOGY TO ALL NATIVE PEOPLES ON BEHALF OF THE UNITED STATES" },
+        { "paragraph": "    - COMMITTEE ON INDIAN AFFAIRS, JOHN McCAIN, Arizona, Chairman" },
+        { "paragraph": "    	" },
+        { "paragraph": "STATEMENT OF HON. JOHN McCAIN, U.S. SENATOR FROM ARIZONA, CHAIRMAN, COMMITTEE ON INDIAN AFFAIRS" },
+        {
+          "duration": 20.0,
+          "paragraph": "The Chairman. Today's hearing addresses S.J. Res. 15, a joint resolution to acknowledge the contributions of Native Americans to this country but also the long history of official depredations and ill-conceived policies by the U.S. Government regarding Indians."
         },
-         {
+        {
+          "duration": 20.0,
+          "paragraph": "The resolution apologizes to Native Peoples on behalf of the United States. I commend Senator Brownback for introducing the measure and I look forward to his testimony. I note that he introduced an apology resolution in the last Congress. That resolution, passed by unanimous consent of this committee with an amendment in the nature of a substitute, was never acted on by the full Senate."
+        },
+        {
+          "duration": 20.0,
+          "paragraph": "S.J. Res. 15 apologizes for the several hundred years of wrongs the Federal Government has perpetrated against Native Americans. Reviewing the history of this Government's treatment of Native peoples makes painfully obvious that the Government has repeatedly broken its promises and caused great harm to the Nation's original inhabitants."
+        },
+        {
+          "duration": 20.0,
+          "paragraph": " While remembering our past wrongs is important, it is also important that we answer those wrongs with vigorous actions and policies that actively promote the well-being of Native Americans today."
+        }
+      ]
+    },
+    {
       "name": "ClydeBellecourt",
-       "title": "Are You Going to Honor the Treaties? Clyde Bellecourt Asks Bernie Sanders",
+      "title": "Are You Going to Honor the Treaties? Clyde Bellecourt Asks Bernie Sanders",
       "timelineDate": "TODAY",
-          "lastupdate": "2-19-16",
-          "notes": "tie in religous laws, names, schools other thing in video and show at same frames as video",
-      "references": [
+      "lastupdate": "2-19-16",
+      "notes": "tie in religous laws, names, schools other thing in video and show at same frames as video all treaties made or which shall be made under the authority of the United States shall be the supreme law of the land documents  therefore   are legally    binding dialogues  between these    sovereignshttp://digital.library.okstate.edu/kappler/",
+        "references": [
         {
           "url": "http://indiancountrytodaymedianetwork.com/2016/02/15/are-you-going-honor-treaties-clyde-bellecourt-asks-bernie-sanders-163429",
           "date": "Feburary 2016",
@@ -288,15 +286,15 @@
           "source": "Indian Country TodayMEDIA NETWORK"
         }
       ],
-          "video": [
-            {
-              "url": "https://youtu.be/bCYiN0N9dqs",
-              "volume": 10,
-              "duration": 0.5
-            }
-          ],
+      "video": [
+        {
+          "url": "https://youtu.be/bCYiN0N9dqs",
+          "volume": 10,
+          "duration": 0.5
+        }
+      ],
       "audio": [ ],
-      "images": [],
+      "images": [ ],
       "text": [
         {
           "paragraph": "Clyde Bellecourt, founder of the American Indian Movement and elder statesman in the Twin Cities civil rights community, was the last audience member to be given the mic to question Bernie Sanders at the Black America Forum in Minneapolis."
@@ -361,11 +359,11 @@
       "lastupdate": "2-18-16",
       "call": "TimeRatio",
       "notes": "make a time line, to scale, of 11500 to first treaty to today in a graphic",
-      "references": [  ],
+      "references": [ ],
       "video": [ ],
       "audio": [ ],
       "images": [ ],
-      "text": [ 
+      "text": [
         {
           "paragraph": "There could of course be much older history as archaeological sites are rare and seem to be stumpbled on upon randlym by road building for example. Many are burried by farming or otherwise lost to time"
         }
@@ -431,9 +429,9 @@
           "references": [
             {
               "url": "http://education.mnhs.org/northern-lights/learning-resources/chapter-2-evidence-past/archaeologist-taking-notes-bradbury-brook",
-            "date": "September 1990",
-            "location": "Bradbury Brook site",
-            "source": "Archaeologist taking notes at Bradbury Brook site (with highway coming)"
+              "date": "September 1990",
+              "location": "Bradbury Brook site",
+              "source": "Archaeologist taking notes at Bradbury Brook site (with highway coming)"
             }
           ]
         }
