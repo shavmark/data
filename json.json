@@ -9,25 +9,25 @@
   },
   "todo": "http://www.fromsitetostory.org/nhr/21ce0001itascabison/21ce0001itascabison.asp  8000 years ago",
   "order": [
-        { "name": "ClydeBellecourt" },
-        { "name": "W" },
-        { "name": "TheAappology" },
-        { "name": "TheAappology2" },
-        { "name": "TheAappology3" },
-        { "name": "Shorthistory" },
-        { "name": "FirstCopperAge" },
-        { "name": "BradburyBrook" },
-        { "name": "Timeline" },
-        { "name": "Treaty1" },
-        { "name": "Treatyn" }
+        { "keyname": "ClydeBellecourt" },
+        { "keyname": "W" },
+        { "keyname": "TheAappology" },
+        { "keyname": "TheAappology2" },
+        { "keyname": "TheAappology3" },
+        { "keyname": "Shorthistory" },
+        { "keyname": "FirstCopperAge" },
+        { "keyname": "BradburyBrook" },
+        { "keyname": "Timeline" },
+        { "keyname": "Treaty1" },
+        { "keyname": "Treatyn" }
   ],
   "scenes": [
     {
-      "name": "W",
+      "keyname": "W",
       "title": "George W Bush, 2005",
       "defaults": {
           "notes": "slide1 default",
-          "font": "fonts/Raleway-Thin.ttf",
+          "font": "fonts/Raleway-Thin.ttf"
       },
       "timelineDate": "2005AD",
       "lastupdate": "2-17-16",
@@ -116,16 +116,15 @@
       ],
       "text": [
         {
-          "foreground": "green",
           "x": 0,
           "y": 50,
           "duration": 20.0,
-          "paragraph": " George Bush: ``The only way we found to rise above the injustices of our history was to reject segregation, to move beyond mere tolerance, and to affirm the brotherhood of everyone in our land.''"
+          "paragraph": " George Bush: The only way we found to rise above the injustices of our history was to reject segregation, to move beyond mere tolerance, and to affirm the brotherhood of everyone in our land."
         }
       ]
     },
     {
-      "name": "TheAappology",
+      "keyname": "TheAappology",
       "title": "PUBLIC LAW 111–118, Making appropriations for the Department of Defense for the fiscal year ending September 30, 2010",
       "timelineDate": "2009AD",
       "references": [
@@ -191,7 +190,7 @@
       ]
     },
     {
-      "name": "TheAappology2",
+      "keyname": "TheAappology2",
       "title": "Remarks by the President (Barack Obama) at the White House Tribal Nations Conference",
       "timelineDate": "2010AD",
       "lastupdate": "2-17-16",
@@ -219,7 +218,7 @@
       ]
     },
     {
-      "name": "TheAappology3",
+      "keyname": "TheAappology3",
       "order": "2",
       "title": "John McCain and other US Senators Apologize",
       "timelineDate": "2005AD",
@@ -271,7 +270,7 @@
       ]
     },
     {
-      "name": "ClydeBellecourt",
+      "keyname": "ClydeBellecourt",
       "title": "Are You Going to Honor the Treaties? Clyde Bellecourt Asks Bernie Sanders",
       "timelineDate": "TODAY",
       "lastupdate": "2-19-16",
@@ -300,7 +299,7 @@
       ]
     },
     {
-      "name": "FirstCopperAge",
+      "keyname": "FirstCopperAge",
       "title": "",
       "timelineDate": "5500BC",
       "lastupdate": "2-17-16",
@@ -351,7 +350,7 @@
       ]
     },
     {
-      "name": "Shorthistory",
+      "keyname": "Shorthistory",
       "title": "Known Timeline",
       "timelineDate": "11500BP",
       "lastupdate": "2-18-16",
@@ -368,7 +367,7 @@
       ]
     },
     {
-      "name": "BradburyBrook",
+      "keyname": "BradburyBrook",
       "title": "",
       "timelineDate": "11500BP",
       "lastupdate": "2-18-16",
@@ -406,7 +405,7 @@
       ]
     },
     {
-      "name": "Timeline",
+      "keyname": "Timeline",
       "title": "",
       "timelineDate": "11500BP",
       "lastupdate": "2-18-16",
