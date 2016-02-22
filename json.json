@@ -8,8 +8,8 @@
     "duration": 1.1
   },
   "todo": "http://www.fromsitetostory.org/nhr/21ce0001itascabison/21ce0001itascabison.asp  8000 years ago",
-  "order": [
-        { "keyname": "ClydeBellecourt" },
+  "playList": [
+        { "keyname": "ClydeBellecourt", "skip": false, "wait": true },
         { "keyname": "W" },
         { "keyname": "TheAappology" },
         { "keyname": "TheAappology2" },
