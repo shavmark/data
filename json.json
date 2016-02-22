@@ -1,14 +1,10 @@
 {
   "title": "History and Future of USA within USA Treaties",
-  "defaults": {
+  "settings": {
     "notes": "this will build out as we know more",
-    "font": "fonts/Raleway-Thin.ttf",
-    "italicfont": "fonts/Raleway-Italic.ttf",
-    "boldfont": "fonts/Raleway-Bold.ttf",
-    "fontsize": 18,
-    "foreground": "blue",
-    "x": 0,
-    "y": 50,
+    "font": {"name": "raleway-thin", "size": 14, "file": "fonts/Raleway-Thin.ttf" },
+    "foreground": { "R": 0, "G": 255, "B": 0},
+    "background": { "R": 255, "G": 0, "B": 0},
     "duration": 1.1
   },
   "todo": "http://www.fromsitetostory.org/nhr/21ce0001itascabison/21ce0001itascabison.asp  8000 years ago",
@@ -124,8 +120,6 @@
           "x": 0,
           "y": 50,
           "duration": 20.0,
-          "font": "fonts/Raleway-Italic.ttf",
-          "size": 10,
           "paragraph": " George Bush: ``The only way we found to rise above the injustices of our history was to reject segregation, to move beyond mere tolerance, and to affirm the brotherhood of everyone in our land.''"
         }
       ]
@@ -158,7 +152,11 @@
         }
       ],
       "text": [
-        { "paragraph": "apology to native peoples of the united states" },
+        {
+          "foreground": { "R": 0, "G": 255, "B": 0},
+          "background": { "R": 255, "G": 0, "B": 0},
+          "paragraph": "apology to native peoples of the united states"
+        },
         { "paragraph": " Sec. 8113. (a) Acknowledgment and Apology.--The United States, acting through Congress--" },
         { "paragraph": "    	" },
         {
