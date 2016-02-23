@@ -5,11 +5,11 @@
     "font": {"name": "raleway-thin", "size": 14, "file": "fonts/Raleway-Thin.ttf" },
     "foreground": { "R": 0, "G": 255, "B": 0},
     "background": { "R": 255, "G": 0, "B": 0},
-    "duration": 1.1
+    "duration": 30.0
   },
   "todo": "http://www.fromsitetostory.org/nhr/21ce0001itascabison/21ce0001itascabison.asp  8000 years ago",
   "playList": [
-        { "keyname": "ClydeBellecourt", "skip": false, "wait": true },
+        { "keyname": "ClydeBellecourt"},
         { "keyname": "W" },
         { "keyname": "TheAappology" },
         { "keyname": "TheAappology2" },
@@ -25,6 +25,8 @@
     {
       "keyname": "W",
       "title": "George W Bush, 2005",
+      "skip": false, 
+      "wait": true, 
       "defaults": {
           "notes": "slide1 default",
           "font": "fonts/Raleway-Thin.ttf"
@@ -48,7 +50,7 @@
           "notes": "test data only",
           "url": "https://www.youtube.com/embed/zOUBMRfiri4",
           "volume": 10,
-          "duration": 0.5,
+          "duration": 30.0,
           "date": "May 7, 2005",
           "references": [
             {
@@ -77,7 +79,7 @@
           "z": 100,
           "url": "long path",
           "name": "my name is",
-          "duration": 10.1,
+          "duration": 30.0,
           "animation": "walking"
         }
       ],
@@ -86,7 +88,7 @@
           "name": "sample data, not ready data",
           "url": "https://www.youtube.com/embed/zOUBMRfiri4",
           "volume": 10,
-          "duration": 0.5,
+          "duration": 30.0,
           "references": [
             {
               "url": "http://www.presidency.ucsb.edu/",
@@ -118,8 +120,8 @@
         {
           "x": 0,
           "y": 50,
-          "duration": 20.0,
-          "paragraph": " George Bush: The only way we found to rise above the injustices of our history was to reject segregation, to move beyond mere tolerance, and to affirm the brotherhood of everyone in our land."
+          "duration": 30.0,
+          "paragraph": " George Bush: The only way we (The United States) found to rise above the injustices of our history was to reject segregation, to move beyond mere tolerance, and to affirm the brotherhood of everyone in our land."
         }
       ]
     },
@@ -159,31 +161,25 @@
         { "paragraph": " Sec. 8113. (a) Acknowledgment and Apology.--The United States, acting through Congress--" },
         { "paragraph": "    	" },
         {
-          "duration": 20.0,
           "paragraph": "(1) recognizes the special legal and political relationship Indian tribes have with the United States and the solemn  covenant with the land we share;"
         },
         {
-          "duration": 20.0,
           "paragraph": "(2) commends and honors Native Peoples for the thousands of years that they have stewarded and protected this land;"
         },
         {
-          "duration": 20.0,
+          "duration": 30.0,
           "paragraph": "(3) recognizes that there have been years of official depredations, ill-conceived policies, and the breaking of covenants by the Federal Government regarding Indian tribes;"
         },
         {
-          "duration": 20.0,
           "paragraph": "(4) apologizes on behalf of the people of the United States to all Native Peoples for the many instances of violence, maltreatment, and neglect inflicted on Native Peoples by citizens of the United States;"
         },
         {
-          "duration": 20.0,
           "paragraph": "(5) expresses its regret for the ramifications of former wrongs and its commitment to build on the positive relationships of the past and present to move toward a brighter future where all the people of this land live reconciled as brothers and sisters, and harmoniously steward and protect this land together;"
         },
         {
-          "duration": 20.0,
           "paragraph": "(6) urges the President to acknowledge the wrongs of the United States against Indian tribes in the history of the United  States in order to bring healing to this land; and"
         },
         {
-          "duration": 20.0,
           "paragraph": "(7) commends the State governments that have begun reconciliation efforts with recognized Indian tribes located in their boundaries and encourages all State governments similarly to work toward reconciling relationships with Indian tribes within their boundaries."
         },
         { "paragraph": "The Apology was enacted into law as part of the Defense Appropriations Act of 2009" }
@@ -208,11 +204,9 @@
       ],
       "text": [
         {
-          "duration": 20.0,
           "paragraph": "These cases serve as a reminder of the importance of not glossing over the past or ignoring the past, even as we work together to forge a brighter future.  That’s why, last year, I signed a resolution, passed by both parties in Congress, finally recognizing the sad and painful chapters in our shared history -- a history too often marred by broken promises and grave injustices against the First Americans."
         },
         {
-          "duration": 20.0,
           "paragraph": " It’s a resolution I fully supported -- recognizing that no statement can undo the damage that was done; what it can do is help reaffirm the principles that should guide our future.  It’s only by heeding the lessons of our history that we can move forward."
         }
       ]
@@ -252,19 +246,15 @@
         { "paragraph": "    	" },
         { "paragraph": "STATEMENT OF HON. JOHN McCAIN, U.S. SENATOR FROM ARIZONA, CHAIRMAN, COMMITTEE ON INDIAN AFFAIRS" },
         {
-          "duration": 20.0,
           "paragraph": "The Chairman. Today's hearing addresses S.J. Res. 15, a joint resolution to acknowledge the contributions of Native Americans to this country but also the long history of official depredations and ill-conceived policies by the U.S. Government regarding Indians."
         },
         {
-          "duration": 20.0,
           "paragraph": "The resolution apologizes to Native Peoples on behalf of the United States. I commend Senator Brownback for introducing the measure and I look forward to his testimony. I note that he introduced an apology resolution in the last Congress. That resolution, passed by unanimous consent of this committee with an amendment in the nature of a substitute, was never acted on by the full Senate."
         },
         {
-          "duration": 20.0,
           "paragraph": "S.J. Res. 15 apologizes for the several hundred years of wrongs the Federal Government has perpetrated against Native Americans. Reviewing the history of this Government's treatment of Native peoples makes painfully obvious that the Government has repeatedly broken its promises and caused great harm to the Nation's original inhabitants."
         },
         {
-          "duration": 20.0,
           "paragraph": " While remembering our past wrongs is important, it is also important that we answer those wrongs with vigorous actions and policies that actively promote the well-being of Native Americans today."
         }
       ]
@@ -286,8 +276,7 @@
       "video": [
         {
           "url": "https://youtu.be/bCYiN0N9dqs",
-          "volume": 10,
-          "duration": 0.5
+          "volume": 10
         }
       ],
       "audio": [ ],
@@ -344,7 +333,6 @@
       ],
       "text": [
         {
-          "duration": 20.0,
           "paragraph": "People used copper as early as 7000 BC in North America, possibly 4000 BC, and 5500 BC in Minnesota. The Copper Age was 3500 – 2300 BC in Europe"
         }
       ]
