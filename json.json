@@ -36,14 +36,14 @@
       "settings": {
         "notes": "slide1 default",
         "font": "fonts/Raleway-Thin.ttf",
-        "timelineDate": "2005AD",
-        "lastupdate": "2-17-16"
+        "timelineDate": { "ad": "2005" },
+        "lastupdate": { "ad": "2-17-16" }
       },
       "references": [
         {
           "url": "http://www.aparchive.com/metadata/President-George-W-Bush-in-Riga-Latvia-1100-1200/259765d6208845cc9758afb6ab6ba8cf?query=MIDDLE+EAST&current=3&orderBy=Relevance&hits=17&referrer=search&search=%2Fsearch%3Fquery%3DMIDDLE%2520EAST%26allFilters%3DLEBANON%3AKeyword%2CReligion%3ASubject%2CCONSTRUCTION%3AKeyword%2CBusiness%3ASubject%2CGERMANY%3AKeyword&allFilters=LEBANON%3AKeyword%2CReligion%3ASubject%2CCONSTRUCTION%3AKeyword%2CBusiness%3ASubject%2CGERMANY%3AKeyword&productType=IncludedProducts&page=1&b=6ba8cf",
           "settings": {
-            "date": "May 7, 2005",
+            "itemDate": { "ad": "May 7, 2005" },
             "notes": "video is choppy"
           },
           "location": "Riga, Latvia",
@@ -58,7 +58,7 @@
           "url": "https://www.youtube.com/embed/zOUBMRfiri4",
           "volume": 10,
           "settings": {
-            "date": "May 7, 2005",
+            "itemDate": { "ad": "May 7, 2005" },
             "duration": 31.0,
             "notes": "test data only"
           },
@@ -66,7 +66,7 @@
             {
               "url": "http://www.presidency.ucsb.edu/",
               "settings": {
-                "date": "May 7, 2005"
+                "itemDate": { "ad": "May 2005" }
               },
               "location": "Riga, Latvia",
               "source": "American Presidency Project"
@@ -109,7 +109,7 @@
             {
               "url": "http://www.presidency.ucsb.edu/",
               "settings": {
-                "date": "May 7, 2005"
+                "itemDate": { "ad": "May 7, 2005" }
               },
               "location": "Riga, Latvia",
               "source": "American Presidency Project"
@@ -121,6 +121,7 @@
         {
           "settings": {
             "notes": "figure out graphics, like Sunshine etc"
+          }
           }
           ],
           "images": [
@@ -156,13 +157,13 @@
           "keyname": "TheAappology",
           "title": "PUBLIC LAW 111–118, Making appropriations for the Department of Defense for the fiscal year ending September 30, 2010",
           "settings": {
-            "timelineDate": "2009AD"
+            "timelineDate": { "ad": "2009" }
           },
           "references": [
             {
               "url": "http://www.copyright.gov/legislation/pl111-118.pdf",
               "settings": {
-                "date": "Dec. 19, 2009"
+                "itemDate": { "ad": "Dec. 19, 2009" }
               },
               "location": "WASHINGTON, DC",
               "source": "U.S. GOVERNMENT PRINTING OFFICE"
@@ -177,7 +178,7 @@
                 {
                   "url": "https://nativevotewa.wordpress.com/2009/12/31/president-obama-signs-native-american-apology-resolution/",
                   "settings": {
-                    "date": "December 19, 2009"
+                    "itemDate": { "ad": "Dec. 19, 2009" }
                   },
 
                   "location": "Washington, DC",
@@ -232,14 +233,14 @@
           "keyname": "TheAappology2",
           "title": "Remarks by the President (Barack Obama) at the White House Tribal Nations Conference",
           "settings": {
-            "timelineDate": "2010AD",
-            "lastupdate": "2-17-16"
+            "timelineDate": { "ad": "2010" },
+            "lastupdate": { "ad": "2-17-16" }
           },
           "references": [
             {
               "url": "https://www.whitehouse.gov/the-press-office/2010/12/16/remarks-president-white-house-tribal-nations-conference",
               "settings": {
-                "date": "December 16, 2010"
+                "itemDate": { "ad": "December 16, 2010" }
               },
               "location": "WASHINGTON, DC",
               "source": "The White House"
@@ -263,15 +264,15 @@
           "order": "2",
           "title": "John McCain and other US Senators Apologize",
           "settings": {
-            "timelineDate": "2005AD",
-            "lastupdate": "2-17-16"
+            "timelineDate": { "ad": "2005" },
+            "lastupdate": { "ad": "2-17-16" }
           },
 
           "references": [
             {
               "url": "https://www.gpo.gov/fdsys/pkg/CHRG-109shrg21531/html/CHRG-109shrg21531.htm",
               "settings": {
-                "date": "MAY 25, 2005"
+                "itemDate": { "ad": "MAY 25, 2005" }
               },
 
               "location": "WASHINGTON, DC",
@@ -319,8 +320,8 @@
           "keyname": "ClydeBellecourt",
           "title": "Are You Going to Honor the Treaties? Clyde Bellecourt Asks Bernie Sanders",
           "settings": {
-            "timelineDate": "2-19-2016",
-            "lastupdate": "2-19-16"
+            "timelineDate": { "ad": "2-19-2016" },
+            "lastupdate": { "ad": "2-19-16" }
           },
 
           "notes": "tie in religous laws, names, schools other thing in video and show at same frames as video all treaties made or which shall be made under the authority of the United States shall be the supreme law of the land documents  therefore   are legally    binding dialogues  between these    sovereignshttp://digital.library.okstate.edu/kappler/",
@@ -328,7 +329,7 @@
             {
               "url": "http://indiancountrytodaymedianetwork.com/2016/02/15/are-you-going-honor-treaties-clyde-bellecourt-asks-bernie-sanders-163429",
               "settings": {
-                "date": "Feburary 2016"
+                "itemDate": { "ad": "Feburary 2016" }
               },
               "location": "Black America Forum in Minneapolis",
               "source": "Indian Country TodayMEDIA NETWORK"
@@ -352,14 +353,14 @@
           "keyname": "FirstCopperAge",
           "title": "",
           "settings": {
-            "BC": 5500,
-            "lastupdate": "2-17-16"
+            "timelineDate": { "bc":5500 },
+            "lastupdate": { "ad": "2-17-16" }
           },
           "references": [
             {
               "url": "http://www.jstor.org/stable/25669519",
               "settings": {
-                "date": "February 1998"
+                "itemDate": { "ad": "2-1-98" }
               },
               "location": "University of Minnesota, Dept. of Anthropology",
               "source": "OLD COPPER IN MINNESOTA: A REVIEW"
@@ -367,7 +368,7 @@
             {
               "url": "http://copperculture.homestead.com/",
               "settings": {
-                "date": "June 20, 2015"
+                "itemDate": { "ad": "June 20, 2015" }
               },
               "location": "private person, but references and pics are great",
               "source": "THE OLD COPPER COMPLEX web site"
@@ -375,7 +376,7 @@
             {
               "url": "http://www.iceman.it/en/copperage",
               "settings": {
-                "date": "1/1/2013"
+                "itemDate": { "ad": "1/1/2013" }
               },
               "location": "South Tyrol Museum of Archaeology",
               "source": "The Copper Age (3500 – 2300 BC)"
@@ -412,8 +413,8 @@
           "keyname": "Shorthistory",
           "title": "Known Timeline",
           "settings": {
-            "timelineDate": "11500BP",
-            "lastupdate": "2-18-16"
+            "timelineDate": { "bc": 1150 },
+            "lastupdate": { "ad": "2-18-16" }
           },
           "call": "TimeRatio",
           "notes": "make a time line, to scale, of 11500 to first treaty to today in a graphic",
@@ -431,8 +432,8 @@
           "keyname": "BradburyBrook",
           "title": "",
           "settings": {
-            "timelineDate": "11500BP",
-            "lastupdate": "2-18-16"
+            "timelineDate": { "bc": 11500 },
+            "lastupdate": { "ad": "2-18-16" }
           },
           "notes": "Also area (Milacs) where Dakata life started. Site was studied for 3 months then burried under a highway in the background.  BP is before 1950 so add 2000 years ",
           "references": [
@@ -454,7 +455,7 @@
                 {
                   "url": "http://education.mnhs.org/northern-lights/learning-resources/chapter-2-evidence-past/archaeologist-taking-notes-bradbury-brook",
                   "settings": {
-                    "date": "September 1990"
+                    "itemDate": { "ad": "September 1990" }
                   },
                   "location": "Bradbury Brook site",
                   "source": "Archaeologist taking notes at Bradbury Brook site (with highway coming)"
@@ -475,14 +476,16 @@
           "keyname": "Timeline",
           "title": "",
           "settings": {
-            "timelineDate": "11500BP",
-            "lastupdate": "2-18-16"
+            "timelineDate": { "bc": 11500 },
+            "lastupdate": { "ad": "2-18-16" }
           },
           "notes": "make a time line, to scale, of 11500 to first treaty to today, show a filling bucket of 12,000 years, then show 200 items",
           "references": [
             {
               "url": "http://sites.mnhs.org/library/content/archaeology-collection",
-              "date": "unknown",
+              "settings": {
+              "notes": "date unknown"
+              },
               "location": "Minnesota History Center",
               "source": "Archaeology Collection"
             }
@@ -496,7 +499,7 @@
                 {
                   "url": "http://education.mnhs.org/northern-lights/learning-resources/chapter-2-evidence-past/archaeologist-taking-notes-bradbury-brook",
                   "settings": {
-                    "date": "September 1990"
+                    "itemDate": { "ad": "September 1990" }
                   },
                   "location": "Bradbury Brook site",
                   "source": "Archaeologist taking notes at Bradbury Brook site (with highway coming)"
@@ -514,5 +517,5 @@
           ]
         }
       ]
-    }
+    
 }
