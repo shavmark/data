@@ -154,7 +154,7 @@
               "text": { "str": " George Bush: The only way we (The United States) found to rise above the injustices of our history was to reject segregation, to move beyond mere tolerance, and to affirm the brotherhood of everyone in our land." }
             }
           ]
-        },
+    },
     {
       "keyname": "TheAappology",
       "title": "PUBLIC LAW 111–118, Making appropriations for the Department of Defense for the fiscal year ending September 30, 2010",
@@ -365,8 +365,6 @@
               "volume": 10.0
             }
           ],
-          "audios": [ ],
-          "images": [ ],
           "paragraphs": [
             {
               "text": { "str": "Clyde Bellecourt, founder of the American Indian Movement and elder statesman in the Twin Cities civil rights community, was the last audience member to be given the mic to question Bernie Sanders at the Black America Forum in Minneapolis."}
