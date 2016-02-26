@@ -147,10 +147,9 @@
           ],
           "paragraphs": [
             {
-              "x": 0,
-              "y": 50,
               "settings": {
-                "duration": 34.0
+                "duration": 34.0,
+                "startingPoint": { "x": 0, "y": 50}
               },
               "text": { "str": " George Bush: The only way we (The United States) found to rise above the injustices of our history was to reject segregation, to move beyond mere tolerance, and to affirm the brotherhood of everyone in our land." }
             }
