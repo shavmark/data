@@ -53,7 +53,7 @@
           "name": "test"
         }
       ],
-      "audio": [
+      "audios": [
         {
           "url": "https://www.youtube.com/embed/zOUBMRfiri4",
           "volume": 1.0,
@@ -74,7 +74,7 @@
           ]
         }
       ],
-      "character": [
+      "characters": [
         {
           "type": "2d",
           "animation": "talking",
@@ -97,7 +97,10 @@
           "animation": "walking"
         }
       ],
-      "video": [
+      "texts": [
+        { "text": { "str": " demo of text vs paragraph" } }
+      ],
+      "videos": [
         {
           "name": "sample data, not ready data",
           "url": "https://www.youtube.com/embed/zOUBMRfiri4",
@@ -122,10 +125,10 @@
           "settings": {
             "notes": "figure out graphics, like Sunshine etc"
           }
-          }
-          ],
-          "images": [
-            {
+      }
+      ],
+      "images": [
+        {
               "url": "http://www.nndb.com/people/360/000022294/george-w-bush.jpg",
               "settings": {
                 "notes": "maybe ust use links as videos need to be done this way anyhow, then app requires web which is fine"
@@ -142,93 +145,115 @@
               ]
             }
           ],
-          "text": [
+          "paragraphs": [
             {
               "x": 0,
               "y": 50,
               "settings": {
                 "duration": 34.0
               },
-              "paragraph": " George Bush: The only way we (The United States) found to rise above the injustices of our history was to reject segregation, to move beyond mere tolerance, and to affirm the brotherhood of everyone in our land."
+              "text": { "str": " George Bush: The only way we (The United States) found to rise above the injustices of our history was to reject segregation, to move beyond mere tolerance, and to affirm the brotherhood of everyone in our land." }
             }
           ]
         },
+    {
+      "keyname": "TheAappology",
+      "title": "PUBLIC LAW 111–118, Making appropriations for the Department of Defense for the fiscal year ending September 30, 2010",
+      "settings": {
+        "timelineDate": { "ad": "2009" }
+      },
+      "references": [
         {
-          "keyname": "TheAappology",
-          "title": "PUBLIC LAW 111–118, Making appropriations for the Department of Defense for the fiscal year ending September 30, 2010",
+          "url": "http://www.copyright.gov/legislation/pl111-118.pdf",
           "settings": {
-            "timelineDate": { "ad": "2009" }
+            "itemDate": { "ad": "Dec. 19, 2009" }
           },
+          "location": "WASHINGTON, DC",
+          "source": "U.S. GOVERNMENT PRINTING OFFICE"
+        }
+      ],
+      "videos": [ ],
+      "audios": [ ],
+      "images": [
+        {
+          "url": "https://nativevotewa.files.wordpress.com/2009/12/obama-signs-bill1.jpg",
           "references": [
             {
-              "url": "http://www.copyright.gov/legislation/pl111-118.pdf",
+              "url": "https://nativevotewa.wordpress.com/2009/12/31/president-obama-signs-native-american-apology-resolution/",
               "settings": {
                 "itemDate": { "ad": "Dec. 19, 2009" }
               },
-              "location": "WASHINGTON, DC",
-              "source": "U.S. GOVERNMENT PRINTING OFFICE"
-            }
-          ],
-          "video": [ ],
-          "audio": [ ],
-          "images": [
-            {
-              "url": "https://nativevotewa.files.wordpress.com/2009/12/obama-signs-bill1.jpg",
-              "references": [
-                {
-                  "url": "https://nativevotewa.wordpress.com/2009/12/31/president-obama-signs-native-american-apology-resolution/",
-                  "settings": {
-                    "itemDate": { "ad": "Dec. 19, 2009" }
-                  },
 
-                  "location": "Washington, DC",
-                  "source": "Native Vote Washington"
-                }
-              ]
+              "location": "Washington, DC",
+              "source": "Native Vote Washington"
             }
-          ],
-          "text": [
-            {
-              "settings": {
-                "foreground": {
-                  "R": 0,
-                  "G": 255,
-                  "B": 0
-                },
-                "background": {
-                  "R": 255,
-                  "G": 0,
-                  "B": 0
-                }
-              },
-
-              "paragraph": "apology to native peoples of the united states"
-            },
-            { "paragraph": " Sec. 8113. (a) Acknowledgment and Apology.--The United States, acting through Congress--" },
-            { "paragraph": "    	" },
-            { "paragraph": "(1) recognizes the special legal and political relationship Indian tribes have with the United States and the solemn  covenant with the land we share;" },
-            {
-              "paragraph": "(2) commends and honors Native Peoples for the thousands of years that they have stewarded and protected this land;"
-            },
-            {
-              "duration": 40.0,
-              "paragraph": "(3) recognizes that there have been years of official depredations, ill-conceived policies, and the breaking of covenants by the Federal Government regarding Indian tribes;"
-            },
-            {
-              "paragraph": "(4) apologizes on behalf of the people of the United States to all Native Peoples for the many instances of violence, maltreatment, and neglect inflicted on Native Peoples by citizens of the United States;"
-            },
-            {
-              "paragraph": "(5) expresses its regret for the ramifications of former wrongs and its commitment to build on the positive relationships of the past and present to move toward a brighter future where all the people of this land live reconciled as brothers and sisters, and harmoniously steward and protect this land together;"
-            },
-            {
-              "paragraph": "(6) urges the President to acknowledge the wrongs of the United States against Indian tribes in the history of the United  States in order to bring healing to this land; and"
-            },
-            {
-              "paragraph": "(7) commends the State governments that have begun reconciliation efforts with recognized Indian tribes located in their boundaries and encourages all State governments similarly to work toward reconciling relationships with Indian tribes within their boundaries."
-            },
-            { "paragraph": "The Apology was enacted into law as part of the Defense Appropriations Act of 2009" }
           ]
+        }
+      ],
+      "texts": [
+        {
+          "settings": {
+            "foreground": {
+              "R": 0,
+              "G": 255,
+              "B": 0
+            },
+            "background": {
+              "R": 255,
+              "G": 0,
+              "B": 0
+            }
+          },
+          "str": "hello"
+        }
+      ],
+      "paragraphs": [
+        {
+          "indent": 5,
+          "leading": 2,
+          "spacing": 3,
+          "alignment": "left",
+          "text": {
+            "settings": {
+              "foreground": {
+                "R": 0,
+                "G": 255,
+                "B": 0
+              },
+              "background": {
+                "R": 255,
+                "G": 0,
+                "B": 0
+              },
+              "str": "Apology to native peoples of the united states"
+            }
+          }
         },
+        { "text": { "str": " Sec. 8113. (a) Acknowledgment and Apology.--The United States, acting through Congress--" } },
+        { "text": { "str": "(1) recognizes the special legal and political relationship Indian tribes have with the United States and the solemn  covenant with the land we share;" } },
+        { "text": { "str": "(2) commends and honors Native Peoples for the thousands of years that they have stewarded and protected this land;" } },
+        {
+         "text": {
+            "settings": {
+              "duration": 40.0
+            },
+            "str": "(3) recognizes that there have been years of official depredations, ill-conceived policies, and the breaking of covenants by the Federal Government regarding Indian tribes;"
+          }
+        },
+        {   "text"   :   { "str": "(4) apologizes on behalf of the people of the United States to all Native Peoples for the many instances of violence, maltreatment, and neglect inflicted on Native Peoples by citizens of the United States;" }
+        },
+            {
+              "text": { "str": "(5) expresses its regret for the ramifications of former wrongs and its commitment to build on the positive relationships of the past and present to move toward a brighter future where all the people of this land live reconciled as brothers and sisters, and harmoniously steward and protect this land together;"}
+            },
+            {
+                "text": { "str": "(6) urges the President to acknowledge the wrongs of the United States against Indian tribes in the history of the United  States in order to bring healing to this land; and"}
+            },
+            {
+                "text": { "str": "(7) commends the State governments that have begun reconciliation efforts with recognized Indian tribes located in their boundaries and encourages all State governments similarly to work toward reconciling relationships with Indian tribes within their boundaries."}
+            },
+            {  "text": { "str": "The Apology was enacted into law as part of the Defense Appropriations Act of 2009" }}
+            ]
+          },
         {
           "keyname": "TheAappology2",
           "title": "Remarks by the President (Barack Obama) at the White House Tribal Nations Conference",
@@ -246,16 +271,16 @@
               "source": "The White House"
             }
           ],
-          "audio": [ ],
-          "video": [ ],
+          "audios": [ ],
+          "videos": [ ],
           "images": [
           ],
-          "text": [
+          "paragraphs": [
             {
-              "paragraph": "These cases serve as a reminder of the importance of not glossing over the past or ignoring the past, even as we work together to forge a brighter future.  That’s why, last year, I signed a resolution, passed by both parties in Congress, finally recognizing the sad and painful chapters in our shared history -- a history too often marred by broken promises and grave injustices against the First Americans."
+              "text": { "str": "These cases serve as a reminder of the importance of not glossing over the past or ignoring the past, even as we work together to forge a brighter future.  That’s why, last year, I signed a resolution, passed by both parties in Congress, finally recognizing the sad and painful chapters in our shared history -- a history too often marred by broken promises and grave injustices against the First Americans." }
             },
             {
-              "paragraph": " It’s a resolution I fully supported -- recognizing that no statement can undo the damage that was done; what it can do is help reaffirm the principles that should guide our future.  It’s only by heeding the lessons of our history that we can move forward."
+              "text": { "str": "Its a resolution I fully supported -- recognizing that no statement can undo the damage that was done; what it can do is help reaffirm the principles that should guide our future.  Its only by heeding the lessons of our history that we can move forward."}
             }
           ]
         },
@@ -279,8 +304,8 @@
               "source": "U.S. GOVERNMENT PRINTING OFFICE"
             }
           ],
-          "video": [ ],
-          "audio": [ ],
+          "videos": [ ],
+          "audios": [ ],
           "images": [
             {
               "url": "http://i2.wp.com/news.usni.org/wp-content/uploads/2014/12/John-McCain.jpg",
@@ -297,22 +322,22 @@
               ]
             }
           ],
-          "text": [
-            { "paragraph": "TO ACKNOWLEDGE A LONG HISTORY OF OFFICIAL DEPREDATIONS AND ILL-CONCEIVED POLICIES BY THE U.S.GOVERNMENT REGARDING INDIAN TRIBES AND OFFER AN APOLOGY TO ALL NATIVE PEOPLES ON BEHALF OF THE UNITED STATES" },
-            { "paragraph": "    - COMMITTEE ON INDIAN AFFAIRS, JOHN McCAIN, Arizona, Chairman" },
-            { "paragraph": "    	" },
-            { "paragraph": "STATEMENT OF HON. JOHN McCAIN, U.S. SENATOR FROM ARIZONA, CHAIRMAN, COMMITTEE ON INDIAN AFFAIRS" },
+          "paragraphs": [
+            { "text": { "str": "TO ACKNOWLEDGE A LONG HISTORY OF OFFICIAL DEPREDATIONS AND ILL-CONCEIVED POLICIES BY THE U.S.GOVERNMENT REGARDING INDIAN TRIBES AND OFFER AN APOLOGY TO ALL NATIVE PEOPLES ON BEHALF OF THE UNITED STATES" } },
+            { "text": { "str": "    - COMMITTEE ON INDIAN AFFAIRS, JOHN McCAIN, Arizona, Chairman" } },
+            { "text": { "str": "    	" } },
+            { "text": { "str": "STATEMENT OF HON. JOHN McCAIN, U.S. SENATOR FROM ARIZONA, CHAIRMAN, COMMITTEE ON INDIAN AFFAIRS" }},
             {
-              "paragraph": "The Chairman. Today's hearing addresses S.J. Res. 15, a joint resolution to acknowledge the contributions of Native Americans to this country but also the long history of official depredations and ill-conceived policies by the U.S. Government regarding Indians."
+              "text": { "str": "The Chairman. Today's hearing addresses S.J. Res. 15, a joint resolution to acknowledge the contributions of Native Americans to this country but also the long history of official depredations and ill-conceived policies by the U.S. Government regarding Indians."}
             },
             {
-              "paragraph": "The resolution apologizes to Native Peoples on behalf of the United States. I commend Senator Brownback for introducing the measure and I look forward to his testimony. I note that he introduced an apology resolution in the last Congress. That resolution, passed by unanimous consent of this committee with an amendment in the nature of a substitute, was never acted on by the full Senate."
+              "text": { "str": "The resolution apologizes to Native Peoples on behalf of the United States. I commend Senator Brownback for introducing the measure and I look forward to his testimony. I note that he introduced an apology resolution in the last Congress. That resolution, passed by unanimous consent of this committee with an amendment in the nature of a substitute, was never acted on by the full Senate."}
             },
             {
-              "paragraph": "S.J. Res. 15 apologizes for the several hundred years of wrongs the Federal Government has perpetrated against Native Americans. Reviewing the history of this Government's treatment of Native peoples makes painfully obvious that the Government has repeatedly broken its promises and caused great harm to the Nation's original inhabitants."
+              "text": { "str":"S.J. Res. 15 apologizes for the several hundred years of wrongs the Federal Government has perpetrated against Native Americans. Reviewing the history of this Government's treatment of Native peoples makes painfully obvious that the Government has repeatedly broken its promises and caused great harm to the Nation's original inhabitants."}
             },
             {
-              "paragraph": " While remembering our past wrongs is important, it is also important that we answer those wrongs with vigorous actions and policies that actively promote the well-being of Native Americans today."
+              "text": { "str": " While remembering our past wrongs is important, it is also important that we answer those wrongs with vigorous actions and policies that actively promote the well-being of Native Americans today."}
             }
           ]
         },
@@ -335,17 +360,17 @@
               "source": "Indian Country TodayMEDIA NETWORK"
             }
           ],
-          "video": [
+          "videos": [
             {
               "url": "https://youtu.be/bCYiN0N9dqs",
               "volume": 10.0
             }
           ],
-          "audio": [ ],
+          "audios": [ ],
           "images": [ ],
-          "text": [
+          "paragraphs": [
             {
-              "paragraph": "Clyde Bellecourt, founder of the American Indian Movement and elder statesman in the Twin Cities civil rights community, was the last audience member to be given the mic to question Bernie Sanders at the Black America Forum in Minneapolis."
+              "text": { "str": "Clyde Bellecourt, founder of the American Indian Movement and elder statesman in the Twin Cities civil rights community, was the last audience member to be given the mic to question Bernie Sanders at the Black America Forum in Minneapolis."}
             }
           ]
         },
@@ -390,8 +415,6 @@
               "source": "Archaeology Collection"
             }
           ],
-          "video": [ ],
-          "audio": [ ],
           "images": [
             {
               "url": "http://copperculture.homestead.com/tp.gif",
@@ -403,9 +426,9 @@
               ]
             }
           ],
-          "text": [
+          "paragraphs": [
             {
-              "paragraph": "People used copper as early as 7000 BC in North America, possibly 4000 BC, and 5500 BC in Minnesota. The Copper Age was 3500 – 2300 BC in Europe"
+              "text": { "str": "People used copper as early as 7000 BC in North America, possibly 4000 BC, and 5500 BC in Minnesota. The Copper Age was 3500 – 2300 BC in Europe" }
             }
           ]
         },
@@ -418,13 +441,9 @@
           },
           "call": "TimeRatio",
           "notes": "make a time line, to scale, of 11500 to first treaty to today in a graphic",
-          "references": [ ],
-          "video": [ ],
-          "audio": [ ],
-          "images": [ ],
-          "text": [
+          "paragraphs": [
             {
-              "paragraph": "There could of course be much older history as archaeological sites are rare and seem to be stumpbled on upon randlym by road building for example. Many are burried by farming or otherwise lost to time"
+              "text": { "str": "There could of course be much older history as archaeological sites are rare and seem to be stumpbled on upon randlym by road building for example. Many are burried by farming or otherwise lost to time" }
             }
           ]
         },
@@ -446,8 +465,6 @@
               "source": "Archaeology Collection"
             }
           ],
-          "video": [ ],
-          "audio": [ ],
           "images": [
             {
               "url": "http://education.mnhs.org/sites/default/files/styles/nl_large_image/public/images/nl/2-21_0.jpg",
@@ -463,12 +480,12 @@
               ]
             }
           ],
-          "text": [
+          "paragraphs": [
             {
-              "paragraph": "Archaeologists working at the Bradbury Brook site near Mille Lacs Lake in central Minnesota found more than 125 000 artifacts, including stone tools, dating to 9220 B.P. (Before Present), making it the earliest dated excavated site in Minnesota"
+              "text": { "str": "Archaeologists working at the Bradbury Brook site near Mille Lacs Lake in central Minnesota found more than 125 000 artifacts, including stone tools, dating to 9220 B.P. (Before Present), making it the earliest dated excavated site in Minnesota" }
             },
             {
-              "paragraph": "'From June to September 1990, archaeologists worked at the Bradbury Brook site. The Highway 169 expansion, which would have destroyed the site, was put on hold. Can you see construction trucks and the path for the expanded highway in the background?'"
+              "text": { "str": "'From June to September 1990, archaeologists worked at the Bradbury Brook site. The Highway 169 expansion, which would have destroyed the site, was put on hold. Can you see construction trucks and the path for the expanded highway in the background?'" }
             }
           ]
         },
@@ -496,8 +513,6 @@
               "source": "Archaeology Collection"
             }
           ],
-          "video": [ ],
-          "audio": [ ],
           "images": [
             {
               "url": "http://education.mnhs.org/sites/default/files/styles/nl_large_image/public/images/nl/2-21_0.jpg",
@@ -513,12 +528,12 @@
               ]
             }
           ],
-          "text": [
+          "paragraphs": [
             {
-              "paragraph": "Archaeologists working at the Bradbury Brook site near Mille Lacs Lake in central Minnesota found more than 125,000 artifacts, including stone tools, dating to 9220 B.P. (Before Present), making it the earliest dated excavated site in Minnesota"
+              "text": { "str": "Archaeologists working at the Bradbury Brook site near Mille Lacs Lake in central Minnesota found more than 125,000 artifacts, including stone tools, dating to 9220 B.P. (Before Present), making it the earliest dated excavated site in Minnesota" }
             },
             {
-              "paragraph": "'From June to September 1990, archaeologists worked at the Bradbury Brook site. The Highway 169 expansion, which would have destroyed the site, was put on hold. Can you see construction trucks and the path for the expanded highway in the background?'"
+              "text": { "str": "'From June to September 1990, archaeologists worked at the Bradbury Brook site. The Highway 169 expansion, which would have destroyed the site, was put on hold. Can you see construction trucks and the path for the expanded highway in the background?'" }
             }
           ]
         }
