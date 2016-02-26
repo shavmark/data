@@ -35,7 +35,7 @@
       "wait": true,
       "settings": {
         "notes": "slide1 default",
-        "font": "fonts/Raleway-Thin.ttf",
+        "font": {"name": "raleway-thin", "size": 14, "file": "fonts/Raleway-Thin.ttf" },
         "timelineDate": { "ad": "2005" },
         "lastupdate": { "ad": "2-17-16" }
       },
@@ -56,7 +56,7 @@
       "audio": [
         {
           "url": "https://www.youtube.com/embed/zOUBMRfiri4",
-          "volume": 10,
+          "volume": 1.0,
           "settings": {
             "itemDate": { "ad": "May 7, 2005" },
             "duration": 31.0,
@@ -101,7 +101,7 @@
         {
           "name": "sample data, not ready data",
           "url": "https://www.youtube.com/embed/zOUBMRfiri4",
-          "volume": 10,
+          "volume": 10.1,
           "settings": {
             "duration": 33.0
           },
@@ -338,7 +338,7 @@
           "video": [
             {
               "url": "https://youtu.be/bCYiN0N9dqs",
-              "volume": 10
+              "volume": 10.0
             }
           ],
           "audio": [ ],
@@ -433,7 +433,7 @@
           "title": "",
           "settings": {
             "timelineDate": { "bc": 11500 },
-            "lastupdate": { "ad": "2-18-16" }
+            "lastupdate": { "ad":"2-18-16" }
           },
           "notes": "Also area (Milacs) where Dakata life started. Site was studied for 3 months then burried under a highway in the background.  BP is before 1950 so add 2000 years ",
           "references": [
@@ -477,7 +477,13 @@
           "title": "",
           "settings": {
             "timelineDate": { "bc": 11500 },
-            "lastupdate": { "ad": "2-18-16" }
+            "lastupdate": {
+              "ad": {
+                "y": 2016,
+                "m": 2,
+                "d": 16
+              }
+            }
           },
           "notes": "make a time line, to scale, of 11500 to first treaty to today, show a filling bucket of 12,000 years, then show 200 items",
           "references": [
