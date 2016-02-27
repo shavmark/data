@@ -41,7 +41,7 @@
       },
       "references": [
         {
-          "url": "http://www.aparchive.com/metadata/President-George-W-Bush-in-Riga-Latvia-1100-1200/259765d6208845cc9758afb6ab6ba8cf?query=MIDDLE+EAST&current=3&orderBy=Relevance&hits=17&referrer=search&search=%2Fsearch%3Fquery%3DMIDDLE%2520EAST%26allFilters%3DLEBANON%3AKeyword%2CReligion%3ASubject%2CCONSTRUCTION%3AKeyword%2CBusiness%3ASubject%2CGERMANY%3AKeyword&allFilters=LEBANON%3AKeyword%2CReligion%3ASubject%2CCONSTRUCTION%3AKeyword%2CBusiness%3ASubject%2CGERMANY%3AKeyword&productType=IncludedProducts&page=1&b=6ba8cf",
+          "locationPath": "http://www.aparchive.com/metadata/President-George-W-Bush-in-Riga-Latvia-1100-1200/259765d6208845cc9758afb6ab6ba8cf?query=MIDDLE+EAST&current=3&orderBy=Relevance&hits=17&referrer=search&search=%2Fsearch%3Fquery%3DMIDDLE%2520EAST%26allFilters%3DLEBANON%3AKeyword%2CReligion%3ASubject%2CCONSTRUCTION%3AKeyword%2CBusiness%3ASubject%2CGERMANY%3AKeyword&allFilters=LEBANON%3AKeyword%2CReligion%3ASubject%2CCONSTRUCTION%3AKeyword%2CBusiness%3ASubject%2CGERMANY%3AKeyword&productType=IncludedProducts&page=1&b=6ba8cf",
           "settings": {
             "itemDate": { "ad": "May 7, 2005" },
             "notes": "video is choppy"
@@ -55,7 +55,7 @@
       ],
       "audios": [
         {
-          "url": "https://www.youtube.com/embed/zOUBMRfiri4",
+          "location": "https://www.youtube.com/embed/zOUBMRfiri4",
           "volume": 1.0,
           "settings": {
             "itemDate": { "ad": "May 7, 2005" },
@@ -64,7 +64,7 @@
           },
           "references": [
             {
-              "url": "http://www.presidency.ucsb.edu/",
+              "locationPath": "http://www.presidency.ucsb.edu/",
               "settings": {
                 "itemDate": { "ad": "May 2005" }
               },
@@ -100,17 +100,17 @@
       "texts": [
         { "text": { "str": " demo of text vs paragraph" } }
       ],
-      "videos": [
+      "videosout": [
         {
           "name": "sample data, not ready data",
-          "url": "https://www.youtube.com/embed/zOUBMRfiri4",
+          "location": "https://www.youtube.com/embed/zOUBMRfiri4",
           "volume": 10.1,
           "settings": {
             "duration": 33.0
           },
           "references": [
             {
-              "url": "http://www.presidency.ucsb.edu/",
+              "locationPath": "http://www.presidency.ucsb.edu/",
               "settings": {
                 "itemDate": { "ad": "May 7, 2005" }
               },
@@ -129,13 +129,13 @@
       ],
       "images": [
         {
-              "url": "http://www.nndb.com/people/360/000022294/george-w-bush.jpg",
+              "location": "http://www.nndb.com/people/360/000022294/george-w-bush.jpg",
               "settings": {
                 "notes": "maybe ust use links as videos need to be done this way anyhow, then app requires web which is fine"
               },
               "references": [
                 {
-                  "url": "http://www.nndb.com/people/360/000022294/",
+                  "locationPath": "http://www.nndb.com/people/360/000022294/",
                   "settings": {
                     "notes": "find date"
                   },
@@ -163,7 +163,7 @@
       },
       "references": [
         {
-          "url": "http://www.copyright.gov/legislation/pl111-118.pdf",
+          "locationPath": "http://www.copyright.gov/legislation/pl111-118.pdf",
           "settings": {
             "itemDate": { "ad": "Dec. 19, 2009" }
           },
@@ -171,14 +171,12 @@
           "source": "U.S. GOVERNMENT PRINTING OFFICE"
         }
       ],
-      "videos": [ ],
-      "audios": [ ],
       "images": [
         {
-          "url": "https://nativevotewa.files.wordpress.com/2009/12/obama-signs-bill1.jpg",
+          "locationPath": "https://nativevotewa.files.wordpress.com/2009/12/obama-signs-bill1.jpg",
           "references": [
             {
-              "url": "https://nativevotewa.wordpress.com/2009/12/31/president-obama-signs-native-american-apology-resolution/",
+              "locationPath": "https://nativevotewa.wordpress.com/2009/12/31/president-obama-signs-native-american-apology-resolution/",
               "settings": {
                 "itemDate": { "ad": "Dec. 19, 2009" }
               },
@@ -262,17 +260,13 @@
           },
           "references": [
             {
-              "url": "https://www.whitehouse.gov/the-press-office/2010/12/16/remarks-president-white-house-tribal-nations-conference",
+              "locationPath": "https://www.whitehouse.gov/the-press-office/2010/12/16/remarks-president-white-house-tribal-nations-conference",
               "settings": {
                 "itemDate": { "ad": "December 16, 2010" }
               },
               "location": "WASHINGTON, DC",
               "source": "The White House"
             }
-          ],
-          "audios": [ ],
-          "videos": [ ],
-          "images": [
           ],
           "paragraphs": [
             {
@@ -294,7 +288,7 @@
 
           "references": [
             {
-              "url": "https://www.gpo.gov/fdsys/pkg/CHRG-109shrg21531/html/CHRG-109shrg21531.htm",
+              "locationPath": "https://www.gpo.gov/fdsys/pkg/CHRG-109shrg21531/html/CHRG-109shrg21531.htm",
               "settings": {
                 "itemDate": { "ad": "MAY 25, 2005" }
               },
@@ -303,14 +297,12 @@
               "source": "U.S. GOVERNMENT PRINTING OFFICE"
             }
           ],
-          "videos": [ ],
-          "audios": [ ],
           "images": [
             {
-              "url": "http://i2.wp.com/news.usni.org/wp-content/uploads/2014/12/John-McCain.jpg",
+              "location": "http://i2.wp.com/news.usni.org/wp-content/uploads/2014/12/John-McCain.jpg",
               "references": [
                 {
-                  "url": "http://news.usni.org/2014/12/12/opinion-john-mccain-senate-torture-report-revolutionary-war",
+                  "locationPath": "http://news.usni.org/2014/12/12/opinion-john-mccain-senate-torture-report-revolutionary-war",
                   "settings": {
                     "notes": "date unknown"
                   },
@@ -351,7 +343,7 @@
           "notes": "tie in religous laws, names, schools other thing in video and show at same frames as video all treaties made or which shall be made under the authority of the United States shall be the supreme law of the land documents  therefore   are legally    binding dialogues  between these    sovereignshttp://digital.library.okstate.edu/kappler/",
           "references": [
             {
-              "url": "http://indiancountrytodaymedianetwork.com/2016/02/15/are-you-going-honor-treaties-clyde-bellecourt-asks-bernie-sanders-163429",
+              "locationPath": "http://indiancountrytodaymedianetwork.com/2016/02/15/are-you-going-honor-treaties-clyde-bellecourt-asks-bernie-sanders-163429",
               "settings": {
                 "itemDate": { "ad": "Feburary 2016" }
               },
@@ -361,8 +353,18 @@
           ],
           "videos": [
             {
-              "url": "https://youtu.be/bCYiN0N9dqs",
-              "volume": 10.0
+              "location": "Clyde.mp4",
+              "volume": 10.0,
+              "references": [
+            {
+              "locationPath": "https://vimeo.com/155235341",
+              "settings": {
+                "itemDate": { "ad": "2/13/2016" }
+              },
+              "location": "Black America Forum in Minneapolis",
+              "source": "Unicorn Riot"
+            }
+          ]
             }
           ],
           "paragraphs": [
@@ -380,7 +382,7 @@
           },
           "references": [
             {
-              "url": "http://www.jstor.org/stable/25669519",
+              "locationPath": "http://www.jstor.org/stable/25669519",
               "settings": {
                 "itemDate": { "ad": "2-1-98" }
               },
@@ -388,7 +390,7 @@
               "source": "OLD COPPER IN MINNESOTA: A REVIEW"
             },
             {
-              "url": "http://copperculture.homestead.com/",
+              "locationPath": "http://copperculture.homestead.com/",
               "settings": {
                 "itemDate": { "ad": "June 20, 2015" }
               },
@@ -396,7 +398,7 @@
               "source": "THE OLD COPPER COMPLEX web site"
             },
             {
-              "url": "http://www.iceman.it/en/copperage",
+              "locationPath": "http://www.iceman.it/en/copperage",
               "settings": {
                 "itemDate": { "ad": "1/1/2013" }
               },
@@ -404,7 +406,7 @@
               "source": "The Copper Age (3500 – 2300 BC)"
             },
             {
-              "url": "http://sites.mnhs.org/library/content/archaeology-collection",
+              "locationPath": "http://sites.mnhs.org/library/content/archaeology-collection",
               "settings": {
                 "notes": "date unknown"
               },
@@ -414,10 +416,10 @@
           ],
           "images": [
             {
-              "url": "http://copperculture.homestead.com/tp.gif",
+              "location": "http://copperculture.homestead.com/tp.gif",
               "references": [
                 {
-                  "url": "http://copperculture.homestead.com/",
+                  "locationPath": "http://copperculture.homestead.com/",
                   "source": "from the collection of David and Dr. E.W. Johnson"
                 }
               ]
@@ -454,7 +456,7 @@
           "notes": "Also area (Milacs) where Dakata life started. Site was studied for 3 months then burried under a highway in the background.  BP is before 1950 so add 2000 years ",
           "references": [
             {
-              "url": "http://sites.mnhs.org/library/content/archaeology-collection",
+              "locationPath": "http://sites.mnhs.org/library/content/archaeology-collection",
               "settings": {
                 "notes": "date unknown"
               },
@@ -464,10 +466,10 @@
           ],
           "images": [
             {
-              "url": "http://education.mnhs.org/sites/default/files/styles/nl_large_image/public/images/nl/2-21_0.jpg",
+              "location": "http://education.mnhs.org/sites/default/files/styles/nl_large_image/public/images/nl/2-21_0.jpg",
               "references": [
                 {
-                  "url": "http://education.mnhs.org/northern-lights/learning-resources/chapter-2-evidence-past/archaeologist-taking-notes-bradbury-brook",
+                  "locationPath": "http://education.mnhs.org/northern-lights/learning-resources/chapter-2-evidence-past/archaeologist-taking-notes-bradbury-brook",
                   "settings": {
                     "itemDate": { "ad": "September 1990" }
                   },
@@ -502,7 +504,7 @@
           "notes": "make a time line, to scale, of 11500 to first treaty to today, show a filling bucket of 12,000 years, then show 200 items",
           "references": [
             {
-              "url": "http://sites.mnhs.org/library/content/archaeology-collection",
+              "locationPath": "http://sites.mnhs.org/library/content/archaeology-collection",
               "settings": {
               "notes": "date unknown"
               },
@@ -512,10 +514,10 @@
           ],
           "images": [
             {
-              "url": "http://education.mnhs.org/sites/default/files/styles/nl_large_image/public/images/nl/2-21_0.jpg",
+              "location": "http://education.mnhs.org/sites/default/files/styles/nl_large_image/public/images/nl/2-21_0.jpg",
               "references": [
                 {
-                  "url": "http://education.mnhs.org/northern-lights/learning-resources/chapter-2-evidence-past/archaeologist-taking-notes-bradbury-brook",
+                  "locationPath": "http://education.mnhs.org/northern-lights/learning-resources/chapter-2-evidence-past/archaeologist-taking-notes-bradbury-brook",
                   "settings": {
                     "itemDate": { "ad": "September 1990" }
                   },
