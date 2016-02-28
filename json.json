@@ -100,7 +100,7 @@
       "texts": [
         { "text": { "str": " demo of text vs paragraph" } }
       ],
-      "videosout": [
+      "videos.ignore": [
         {
           "name": "sample data, not ready data",
           "location": "https://www.youtube.com/embed/zOUBMRfiri4",
@@ -356,15 +356,15 @@
               "location": "Clyde.mp4",
               "volume": 10.0,
               "references": [
-            {
-              "locationPath": "https://vimeo.com/155235341",
-              "settings": {
-                "itemDate": { "ad": "2/13/2016" }
-              },
-              "location": "Black America Forum in Minneapolis",
-              "source": "Unicorn Riot"
-            }
-          ]
+                {
+                  "locationPath": "https://vimeo.com/155235341",
+                  "settings": {
+                    "itemDate": { "ad": "2/13/2016" }
+                  },
+                  "location": "Black America Forum in Minneapolis",
+                  "source": "Unicorn Riot"
+                }
+              ]
             }
           ],
           "paragraphs": [
