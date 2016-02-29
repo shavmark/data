@@ -32,7 +32,6 @@
     {
       "keyname": "W",
       "title": "George W Bush, 2005",
-      "wait": true,
       "settings": {
         "notes": "slide1 default",
         "font": {"name": "raleway-thin", "size": 14, "file": "fonts/Raleway-Thin.ttf" },
