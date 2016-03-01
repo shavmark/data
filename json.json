@@ -1,6 +1,6 @@
 {
-  "title": "History and Future of USA within USA Treaties",
   "settings": {
+    "title": "History and Future of USA within USA Treaties",
     "notes": "this will build out as we know more",
     "font": {"name": "raleway-thin", "size": 14, "file": "fonts/Raleway-Thin.ttf" },
     "foreground": { "R": 0, "G": 255, "B": 0},
@@ -31,8 +31,8 @@
   "scenes": [
     {
       "keyname": "W",
-      "title": "George W Bush, 2005",
       "settings": {
+       "title": "George W Bush, 2005",
         "notes": "slide1 default",
         "font": {"name": "raleway-thin", "size": 14, "file": "fonts/Raleway-Thin.ttf" },
         "timelineDate": { "ad": "2005" },
@@ -54,7 +54,7 @@
       ],
       "audios": [
         {
-          "location": "https://www.youtube.com/embed/zOUBMRfiri4",
+          "locationPath": "https://www.youtube.com/embed/zOUBMRfiri4",
           "volume": 1.0,
           "settings": {
             "itemDate": { "ad": "May 7, 2005" },
@@ -102,7 +102,7 @@
       "videos.ignore": [
         {
           "name": "sample data, not ready data",
-          "location": "https://www.youtube.com/embed/zOUBMRfiri4",
+          "locationPath": "https://www.youtube.com/embed/zOUBMRfiri4",
           "volume": 10.1,
           "settings": {
             "duration": 33.0
@@ -128,7 +128,7 @@
       ],
       "images": [
         {
-              "location": "http://www.nndb.com/people/360/000022294/george-w-bush.jpg",
+              "locationPath": "http://www.nndb.com/people/360/000022294/george-w-bush.jpg",
               "settings": {
                 "notes": "maybe ust use links as videos need to be done this way anyhow, then app requires web which is fine"
               },
@@ -156,8 +156,8 @@
     },
     {
       "keyname": "TheAappology",
-      "title": "PUBLIC LAW 111–118, Making appropriations for the Department of Defense for the fiscal year ending September 30, 2010",
       "settings": {
+        "title": "PUBLIC LAW 111–118, Making appropriations for the Department of Defense for the fiscal year ending September 30, 2010",
         "timelineDate": { "ad": "2009" }
       },
       "references": [
@@ -252,8 +252,8 @@
           },
         {
           "keyname": "TheAappology2",
-          "title": "Remarks by the President (Barack Obama) at the White House Tribal Nations Conference",
           "settings": {
+            "title": "Remarks by the President (Barack Obama) at the White House Tribal Nations Conference",
             "timelineDate": { "ad": "2010" },
             "lastupdate": { "ad": "2-17-16" }
           },
@@ -279,8 +279,8 @@
         {
           "keyname": "TheAappology3",
           "order": "2",
-          "title": "John McCain and other US Senators Apologize",
           "settings": {
+            "title": "John McCain and other US Senators Apologize",
             "timelineDate": { "ad": "2005" },
             "lastupdate": { "ad": "2-17-16" }
           },
@@ -333,13 +333,13 @@
         },
         {
           "keyname": "ClydeBellecourt",
-          "title": "Are You Going to Honor the Treaties? Clyde Bellecourt Asks Bernie Sanders",
           "settings": {
+            "title": "Are You Going to Honor the Treaties? Clyde Bellecourt Asks Bernie Sanders",
             "timelineDate": { "ad": "2-19-2016" },
-            "lastupdate": { "ad": "2-19-16" }
+            "lastupdate": { "ad": "2-19-16" },
+            "notes": "tie in religous laws, names, schools other thing in video and show at same frames as video all treaties made or which shall be made under the authority of the United States shall be the supreme law of the land documents  therefore   are legally    binding dialogues  between these    sovereignshttp://digital.library.okstate.edu/kappler/"
           },
 
-          "notes": "tie in religous laws, names, schools other thing in video and show at same frames as video all treaties made or which shall be made under the authority of the United States shall be the supreme law of the land documents  therefore   are legally    binding dialogues  between these    sovereignshttp://digital.library.okstate.edu/kappler/",
           "references": [
             {
               "locationPath": "http://indiancountrytodaymedianetwork.com/2016/02/15/are-you-going-honor-treaties-clyde-bellecourt-asks-bernie-sanders-163429",
@@ -352,7 +352,7 @@
           ],
           "videos": [
             {
-              "location": "Clyde.mp4",
+              "locationPath": "Clyde.mp4",
               "volume": 10.0,
               "references": [
                 {
@@ -374,7 +374,6 @@
         },
         {
           "keyname": "FirstCopperAge",
-          "title": "",
           "settings": {
             "timelineDate": { "bc":5500 },
             "lastupdate": { "ad": "2-17-16" }
@@ -415,7 +414,7 @@
           ],
           "images": [
             {
-              "location": "http://copperculture.homestead.com/tp.gif",
+              "locationPath": "http://copperculture.homestead.com/tp.gif",
               "references": [
                 {
                   "locationPath": "http://copperculture.homestead.com/",
@@ -432,13 +431,12 @@
         },
         {
           "keyname": "Shorthistory",
-          "title": "Known Timeline",
           "settings": {
+            "title": "Known Timeline",
             "timelineDate": { "bc": 1150 },
-            "lastupdate": { "ad": "2-18-16" }
+            "lastupdate": { "ad": "2-18-16" },
+            "notes": "make a time line, to scale, of 11500 to first treaty to today in a graphic"
           },
-          "call": "TimeRatio",
-          "notes": "make a time line, to scale, of 11500 to first treaty to today in a graphic",
           "paragraphs": [
             {
               "text": { "str": "There could of course be much older history as archaeological sites are rare and seem to be stumpbled on upon randlym by road building for example. Many are burried by farming or otherwise lost to time" }
@@ -447,12 +445,11 @@
         },
         {
           "keyname": "BradburyBrook",
-          "title": "",
           "settings": {
             "timelineDate": { "bc": 11500 },
-            "lastupdate": { "ad":"2-18-16" }
+            "lastupdate": { "ad":"2-18-16" },
+            "notes": "Also area (Milacs) where Dakata life started. Site was studied for 3 months then burried under a highway in the background.  BP is before 1950 so add 2000 years "
           },
-          "notes": "Also area (Milacs) where Dakata life started. Site was studied for 3 months then burried under a highway in the background.  BP is before 1950 so add 2000 years ",
           "references": [
             {
               "locationPath": "http://sites.mnhs.org/library/content/archaeology-collection",
@@ -465,7 +462,7 @@
           ],
           "images": [
             {
-              "location": "http://education.mnhs.org/sites/default/files/styles/nl_large_image/public/images/nl/2-21_0.jpg",
+              "locationPath": "http://education.mnhs.org/sites/default/files/styles/nl_large_image/public/images/nl/2-21_0.jpg",
               "references": [
                 {
                   "locationPath": "http://education.mnhs.org/northern-lights/learning-resources/chapter-2-evidence-past/archaeologist-taking-notes-bradbury-brook",
@@ -489,7 +486,6 @@
         },
         {
           "keyname": "Timeline",
-          "title": "",
           "settings": {
             "timelineDate": { "bc": 11500 },
             "lastupdate": {
@@ -497,10 +493,10 @@
                 "y": 2016,
                 "m": 2,
                 "d": 16
-              }
+              },
+           "notes": "make a time line, to scale, of 11500 to first treaty to today, show a filling bucket of 12,000 years, then show 200 items"
             }
           },
-          "notes": "make a time line, to scale, of 11500 to first treaty to today, show a filling bucket of 12,000 years, then show 200 items",
           "references": [
             {
               "locationPath": "http://sites.mnhs.org/library/content/archaeology-collection",
@@ -513,7 +509,7 @@
           ],
           "images": [
             {
-              "location": "http://education.mnhs.org/sites/default/files/styles/nl_large_image/public/images/nl/2-21_0.jpg",
+              "locationPath": "http://education.mnhs.org/sites/default/files/styles/nl_large_image/public/images/nl/2-21_0.jpg",
               "references": [
                 {
                   "locationPath": "http://education.mnhs.org/northern-lights/learning-resources/chapter-2-evidence-past/archaeologist-taking-notes-bradbury-brook",
