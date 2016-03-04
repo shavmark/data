@@ -2,13 +2,7 @@
   "settings": {
     "title": "History and Future of USA within USA Treaties",
     "notes": "this will build out as we know more",
-    "font": {"name": "raleway-thin", "size": 14, "file": "fonts/Raleway-Thin.ttf" },
-    "foreground": { "R": 0, "G": 255, "B": 0},
-    "background": {
-      "R": 255,
-      "G": 0,
-      "B": 0
-    }
+    "font": {"name": "raleway-thin", "size": 14, "file": "fonts/Raleway-Thin.ttf" }
   },
   "todo": "http://www.fromsitetostory.org/nhr/21ce0001itascabison/21ce0001itascabison.asp  8000 years ago",
   "playList": [
@@ -195,18 +189,6 @@
       ],
       "texts": [
         {
-          "settings": {
-            "foreground": {
-              "R": 0,
-              "G": 255,
-              "B": 0
-            },
-            "background": {
-              "R": 255,
-              "G": 0,
-              "B": 0
-            }
-          },
           "str": "hello"
         }
       ],
@@ -217,19 +199,7 @@
           "spacing": 3,
           "alignment": "left",
           "text": {
-            "settings": {
-              "foreground": {
-                "R": 0,
-                "G": 255,
-                "B": 0
-              },
-              "background": {
-                "R": 255,
-                "G": 0,
-                "B": 0
-              },
               "str": "Apology to native peoples of the united states"
-            }
           }
         },
         { "text": { "str": " Sec. 8113. (a) Acknowledgment and Apology.--The United States, acting through Congress--" } },
