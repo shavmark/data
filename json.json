@@ -393,7 +393,13 @@
             "paragraphs"
             :
             [
-              {
+              {     "settings": {
+                    "startingPoint": {
+                      "x": 1800,
+                      "y": 100
+                     }
+                  },
+
                 "text": { "str": "Clyde Bellecourt, founder of the American Indian Movement and elder statesman in the Twin Cities civil rights community, was the last audience member to be given the mic to question Bernie Sanders at the Black America Forum in Minneapolis." }
               }
             ]
