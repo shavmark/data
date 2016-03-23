@@ -1,0 +1,98 @@
+{
+  "channelList": [
+    { "keyname": "ClydeBellecourt", "lifetime": 120.0, "skip": true, "channeltype":"history" },
+    { "keyname": "W" }
+  ],
+  "scenes": [
+    {
+      "keyname": "W",
+      "sceneType": "Test",
+      "radius": 150,
+      "settings": {
+        "colorgroup": "Modern"
+      }
+    },
+    {
+      "keyname": "ClydeBellecourt",
+      "sceneType": "Space",
+      "radius": 500,
+      "settings": {
+        "colorgroup": "Modern",
+        "title": "Are You Going to Honor the Treaties? Clyde Bellecourt Asks Bernie Sanders",
+        "notes": "notes here",
+        "font": {
+          "name": "raleway-thin",
+          "size": 14,
+          "file": "fonts/Raleway-Thin.ttf"
+        }
+      },
+      "dates": {
+        "timelineDate": { "ad": "2-19-2016" },
+        "lastupdate": { "ad": "2-19-16" }
+      },
+      "references": [
+        {
+          "locationPath": "http://indiancountrytodaymedianetwork.com/2016/02/15/are-you-going-honor-treaties-clyde-bellecourt-asks-bernie-sanders-163429",
+          "dates": {
+            "itemDate": { "ad": "Feburary 2016" },
+            "lastupdate": { "ad": "2-19-16" }
+          },
+          "location": "Black America Forum in Minneapolis",
+          "source": "Indian Country TodayMEDIA NETWORK"
+        }
+      ],
+      "images": [
+        {
+          "locationPath": "http://i2.wp.com/news.usni.org/wp-content/uploads/2014/12/John-McCain.jpg"
+        }
+      ],
+      "texts": [
+        {
+          "startingPoint": {
+            "x": 1400,
+            "y": 1200
+          },
+
+          "text": { "str": "The resolution apologizes to Native Peoples on behalf of the United States. I commend Senator Brownback for introducing the measure and I look forward to his testimony. I note that he introduced an apology resolution in the last Congress. That resolution, passed by unanimous consent of this committee with an amendment in the nature of a substitute, was never acted on by the full Senate." }
+        }
+      ],
+      "videos": [
+        {
+          "locationPath": "Clyde.mp4",
+          "volume": 1.0,
+          "startingPoint": {
+            "x": 100,
+            "y": 200
+          },
+          "references": [
+            {
+              "locationPath": "https://vimeo.com/155235341",
+              "dates": {
+                "itemDate": { "ad": "2/13/2016" },
+                "lastupdate": { "ad": "2-19-16" }
+              },
+              "location": "Black America Forum in Minneapolis",
+              "source": "Unicorn Riot"
+            }
+          ]
+        }
+      ],
+      "paragraphs": [
+        {
+          "startingPoint": {
+            "x": 1800,
+            "y": 100
+          },
+          "text": { "str": "Clyde Bellecourt, founder of the American Indian Movement and elder statesman in the Twin Cities civil rights community, was the last audience member to be given the mic to question Bernie Sanders at the Black America Forum in Minneapolis." }
+        }
+      ],
+      "particles": [
+        {
+          "locationPath": "particle32.png"
+        }
+      ]
+    }
+
+  ]
+        
+}
