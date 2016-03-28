@@ -6,8 +6,11 @@
   "scenes": [
     {
       "keyname": "W",
-      "sceneType": "Test",
+      "background":{"image": "hubble1.jpg" },
+      "sceneType": "Space",
       "radius": 150,
+      "videoSphere": { "locationPath": "Clyde.mp4" },
+      "Planets": [ {"locationPath": "earth_day.jpg" },{"locationPath": "g04_s65_34658.gif" },{"locationPath": "hubble1.jpg" },{"locationPath": "Floodwaters_of_Mars_highlight_std.jpg" } ],
       "settings": {
         "colorgroup": "Modern"
       }
