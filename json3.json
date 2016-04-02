@@ -6,7 +6,10 @@
   "scenes": [
     {
       "keyname": "W",
-      "background":{"image": "hubble1.jpg" },
+      "backgrounds": [
+        { "image": "hubble1.jpg" },
+        { "video": "Clyde.mp4" }
+      ],
       "sceneType": "Space",
       "radius": 150,
       "videoSphere": { "locationPath": "Clyde.mp4" },
