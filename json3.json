@@ -6,17 +6,37 @@
   "scenes": [
     {
       "keyname": "W",
-      "backgrounds": [
-        { "image": "hubble1.jpg" },
-        { "video": "Clyde.mp4" }
-      ],
-      "sceneType": "Space",
-      "radius": 150,
-      "videoSphere": { "locationPath": "Clyde.mp4" },
-      "Planets": [ {"locationPath": "earth_day.jpg" },{"locationPath": "g04_s65_34658.gif" },{"locationPath": "hubble1.jpg" },{"locationPath": "Floodwaters_of_Mars_highlight_std.jpg" } ],
       "settings": {
-        "colorgroup": "Modern"
-      }
+        "colorGroupName": "Modernx"
+      },
+      "background": {
+        "settings": {
+          "colorGroupName": "Modern"
+        },
+        "gradient": "flat",
+        "image": { "locationPath": "hubble1.jpg" },
+        "video": { "locationPath": "carride.mp4" }
+      },
+      "video": {  "locationPath": "carride.mp4", "drawOrder" :  0 },
+      "sphere": { "empty": ""  },
+      "picture": { "locationPath": "hubble1.jpg", "drawOrder" :  1 },
+      "ball": {
+        "drawOrder" :  -1,
+        "settings": {
+          "colorGroupName": "Modern"
+        }
+      },
+        "solarSystem": {
+          "videoSphere": { "locationPath": "Clyde.mp4" },
+          "Planets": [
+            { "locationPath": "earth_day.jpg" },
+            { "locationPath": "g04_s65_34658.gif" },
+            { "locationPath": "hubble1.jpg" },
+            { "locationPath": "Floodwaters_of_Mars_highlight_std.jpg" }
+          ]
+        },
+      "sceneType": "Generic",
+      "radius": 150
     },
     {
       "keyname": "ClydeBellecourt",
