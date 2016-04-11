@@ -6,119 +6,89 @@
   "scenes": [
     {
       "keyname": "W",
-      "settings": {
-        "colorGroupName": "Modernx"
-      },
-      "background": {
-        "settings": {
-          "colorGroupName": "Modern"
-        },
-        "gradient": "flat",
-        "image": { "locationPath": "hubble1.jpg" },
-        "video": { "locationPath": "carride.mp4" }
-      },
-      "video": {  "locationPath": "carride.mp4", "drawOrder" :  0 },
-      "sphere": { "empty": ""  },
-      "picture": { "locationPath": "hubble1.jpg", "drawOrder" :  1 },
-      "ball": {
-        "drawOrder" :  -1,
-        "settings": {
-          "colorGroupName": "Modern"
-        }
-      },
-        "solarSystem": {
-          "videoSphere": { "locationPath": "Clyde.mp4" },
-          "Planets": [
-            { "locationPath": "earth_day.jpg" },
-            { "locationPath": "g04_s65_34658.gif" },
-            { "locationPath": "hubble1.jpg" },
-            { "locationPath": "Floodwaters_of_Mars_highlight_std.jpg" }
-          ]
-        },
       "sceneType": "Generic",
-      "radius": 150
-    },
-    {
-      "keyname": "ClydeBellecourt",
-      "sceneType": "Space",
-      "radius": 500,
-      "settings": {
-        "colorgroup": "Modern",
-        "title": "Are You Going to Honor the Treaties? Clyde Bellecourt Asks Bernie Sanders",
-        "notes": "notes here",
-        "font": {
-          "name": "raleway-thin",
-          "size": 14,
-          "file": "fonts/Raleway-Thin.ttf"
-        }
+      "background": {
+        "colorAnimation": { "colorGroup": "Modern" },
+        "gradient": "none",
+        "rainbow-": "",
+        "image": {
+          "locationPath": "hubble1.jpg",
+          "colorAnimation": { "colorGroup": "White" }
+        },
+        "video-": { "locationPath": "carride.mp4" }
       },
-      "dates": {
-        "timelineDate": { "ad": "2-19-2016" },
-        "lastupdate": { "ad": "2-19-16" }
+      "video": {
+        "locationPath": "carride.mp4",
+        "drawOrder": 10
       },
-      "references": [
+      "sphere": {
+        "enableAnimation": true,
+        "repeatType": "LOOP_BACK_AND_FORTH",
+        "from": {
+          "x": -50,
+          "y": 50,
+          "z": 100
+        },
+        "to": {
+          "x": 100,
+          "y": -50,
+          "z": 0
+        },
+        "curveName": "SINH",
+        "drawOrder": 1000
+      },
+      "light": {
+        "colorAnimation": { "colorGroup": "Orange" }
+      },
+      "picture": {
+        "locationPath": "hubble1.jpg",
+        "drawOrder": 1
+      },
+      "circles": [
         {
-          "locationPath": "http://indiancountrytodaymedianetwork.com/2016/02/15/are-you-going-honor-treaties-clyde-bellecourt-asks-bernie-sanders-163429",
-          "dates": {
-            "itemDate": { "ad": "Feburary 2016" },
-            "lastupdate": { "ad": "2-19-16" }
+          "drawOrder": 1000,
+          "scale1": {
+            "value": 2
           },
-          "location": "Black America Forum in Minneapolis",
-          "source": "Indian Country TodayMEDIA NETWORK"
-        }
-      ],
-      "images": [
-        {
-          "locationPath": "http://i2.wp.com/news.usni.org/wp-content/uploads/2014/12/John-McCain.jpg"
-        }
-      ],
-      "texts": [
-        {
-          "startingPoint": {
-            "x": 1400,
-            "y": 1200
+          "rotation": {
+            "x": {
+              "from": 1.0,
+              "to": 300.0
+              }
           },
-
-          "text": { "str": "The resolution apologizes to Native Peoples on behalf of the United States. I commend Senator Brownback for introducing the measure and I look forward to his testimony. I note that he introduced an apology resolution in the last Congress. That resolution, passed by unanimous consent of this committee with an amendment in the nature of a substitute, was never acted on by the full Senate." }
-        }
-      ],
-      "videos": [
-        {
-          "locationPath": "Clyde.mp4",
-          "volume": 1.0,
-          "startingPoint": {
-            "x": 100,
-            "y": 200
-          },
-          "references": [
-            {
-              "locationPath": "https://vimeo.com/155235341",
-              "dates": {
-                "itemDate": { "ad": "2/13/2016" },
-                "lastupdate": { "ad": "2-19-16" }
-              },
-              "location": "Black America Forum in Minneapolis",
-              "source": "Unicorn Riot"
+          "animation": {
+            "from": {
+              "x": -10,
+              "y": 0
+            },
+            "to": {
+              "x": 50,
+              "y": 0
             }
-          ]
-        }
-      ],
-      "paragraphs": [
-        {
-          "startingPoint": {
-            "x": 1800,
-            "y": 100
           },
-          "text": { "str": "Clyde Bellecourt, founder of the American Indian Movement and elder statesman in the Twin Cities civil rights community, was the last audience member to be given the mic to question Bernie Sanders at the Black America Forum in Minneapolis." }
+          "colorAnimation": {
+            "colorGroup": "bob",
+            "fore": {
+              "color": "00ff83",
+              "to": 5.0
+            }
+          }
+        },
+        {
+          "colorAnimation": {
+            "colorGroup": "Modern"
+          }
         }
       ],
-      "particles": [
-        {
-          "locationPath": "particle32.png"
-        }
-      ]
+      "solarSystem": {
+        "videoSphere": { "locationPath": "Clyde.mp4" },
+        "Planets": [
+          { "locationPath": "earth_day.jpg" },
+          { "locationPath": "g04_s65_34658.gif" },
+          { "locationPath": "hubble1.jpg" },
+          { "locationPath": "Floodwaters_of_Mars_highlight_std.jpg" }
+        ]
+      }
     }
-
   ]
-        
 }
