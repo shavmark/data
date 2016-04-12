@@ -44,18 +44,24 @@
         "locationPath": "hubble1.jpg",
         "drawOrder": 1
       },
+      "rainbows": [
+        {
+          "rotation": {
+            "x": { "from": 10.0  }
+          }
+       }
+         
+      ],
+      "cubes": [
+        { }
+      ],
       "circles": [
         {
           "drawOrder": 1000,
           "scale1": {
             "value": 2
           },
-          "rotation": {
-            "x": {
-              "from": 1.0,
-              "to": 300.0
-              }
-          },
+         
           "animation": {
             "from": {
               "x": -10,
@@ -75,8 +81,15 @@
           }
         },
         {
+          "drawOrder": 20,
           "colorAnimation": {
             "colorGroup": "Modern"
+          },
+          "rotation": {
+            "x": {
+              "from": 15.0,
+              "to": 300.0
+            }
           }
         }
       ],
