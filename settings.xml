@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<settings>
+    <MachineName>bob</MachineName>
+    <ScreenWidth>800</ScreenWidth>
+    <ScreenHeight>800</ScreenHeight>
+    <OpenglMajor>4</OpenglMajor>
+    <OpenglMiner>4</OpenglMiner>
+    <Location>left</Location>
+    <Performance>5</Performance>
+</settings>
+

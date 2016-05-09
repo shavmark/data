@@ -9,25 +9,32 @@
     },
     "video-": { "locationPath": "carride.mp4" }
   },
-    "lights": [
-    {
-      "light": {
+  "lights": {
+    "deleteExisting": true,
+    "light": [
+      {
         "colorAnimation": { "colorGroup": "Orange" }
       }
-    }
-  ],
-
-  "graphics": [
+    ]
+  },
+  "cameras": 
     {
+      "cameraFixed": [
+        {
+        }
+      ]
+    },
+  "graphics": 
+    {
+    "deleteExisting": true,
       "videos": [
         {
-          "locationPath": "carride.mp4",
+          "locationPath": "clyde.mp4",
           "drawOrder": 10
         }
       ],
-      "spheres": [
+      "spheres-": [
         {
-          "enableAnimation": true,
           "repeatType": "LOOP_BACK_AND_FORTH",
           "from": {
             "x": -50,
@@ -43,10 +50,12 @@
           "drawOrder": 1000
         }
       ],
-      "pictures":[ {
-        "locationPath": "hubble1.jpg",
-        "drawOrder": 1
-      }],
+      "pictures-": [
+        {
+          "locationPath": "hubble1.jpg",
+          "drawOrder": 1
+        }
+      ],
       "rainbows": [
         {
           "rotation": {
@@ -55,7 +64,7 @@
         }
 
       ],
-      "cubes": [
+      "cubes-": [
         { }
       ],
       "circles": [
@@ -96,7 +105,7 @@
           }
         }
       ],
-      "solarSystems": [
+      "solarSystems-": [
         {
           "videoSphere": { "locationPath": "Clyde.mp4" },
           "planets": [
@@ -108,6 +117,6 @@
         }
       ]
     }
-
+  
 }
-]
+
