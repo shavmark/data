@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <settings>
-    <MachineName>bob</MachineName>
+    <MachineName>mr roboto</MachineName>
     <OpenglMajor>4</OpenglMajor>
     <OpenglMiner>4</OpenglMiner>
-    <Performance>5</Performance>
+    <Performance>2</Performance>
     <Windows>
     <window>
       <framerate>30</framerate>
-      <location>left</location>
+      <location>middle</location>
       <json>json4.json</json>
       <json>json.json</json>
       <x>800</x>
@@ -15,15 +15,7 @@
       <ScreenWidth>800</ScreenWidth>
       <ScreenHeight>800</ScreenHeight>
     </window>
-    <window>
-      <json>json4.json</json>
-      <json>json.json</json>
-      <x>0</x>
-      <y>10</y>
-      <ScreenWidth>800</ScreenWidth>
-      <ScreenHeight>800</ScreenHeight>
-    </window>
     </Windows>
-    <Kinect>false</Kinect>
+    <Kinect>1</Kinect>
 </settings>
 
