@@ -3,19 +3,26 @@
     <MachineName>bob</MachineName>
     <OpenglMajor>4</OpenglMajor>
     <OpenglMiner>4</OpenglMiner>
-    <Location>left</Location>
     <Performance>5</Performance>
-    <Framerate>30</Framerate>
     <Windows>
+    <window>
+      <framerate>30</framerate>
+      <location>left</location>
+      <json>json4.json</json>
+      <json>json.json</json>
+      <x>800</x>
+      <y>10</y>
+      <ScreenWidth>800</ScreenWidth>
+      <ScreenHeight>800</ScreenHeight>
+    </window>
     <window>
       <json>json4.json</json>
       <json>json.json</json>
       <x>0</x>
-      <y>0</y>
+      <y>10</y>
       <ScreenWidth>800</ScreenWidth>
       <ScreenHeight>800</ScreenHeight>
     </window>
-    <window><json>bogus.json</json></window>
     </Windows>
     <Kinect>false</Kinect>
 </settings>
