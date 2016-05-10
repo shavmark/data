@@ -7,5 +7,8 @@
     <OpenglMiner>4</OpenglMiner>
     <Location>left</Location>
     <Performance>5</Performance>
+    <Kinect>false</Kinect>
+    <json>json4.json</json>
+    <json>bogus.json</json>
 </settings>
 
