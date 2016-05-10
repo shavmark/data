@@ -1,14 +1,22 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <settings>
     <MachineName>bob</MachineName>
-    <ScreenWidth>800</ScreenWidth>
-    <ScreenHeight>800</ScreenHeight>
     <OpenglMajor>4</OpenglMajor>
     <OpenglMiner>4</OpenglMiner>
     <Location>left</Location>
     <Performance>5</Performance>
+    <Framerate>30</Framerate>
+    <Windows>
+    <window>
+      <json>json4.json</json>
+      <json>json.json</json>
+      <x>0</x>
+      <y>0</y>
+      <ScreenWidth>800</ScreenWidth>
+      <ScreenHeight>800</ScreenHeight>
+    </window>
+    <window><json>bogus.json</json></window>
+    </Windows>
     <Kinect>false</Kinect>
-    <json>json4.json</json>
-    <json>bogus.json</json>
 </settings>
 
